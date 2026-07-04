@@ -1,0 +1,70 @@
+# State after run 2026-07-04 (supervised mode: drafts queued, nothing sent,
+# statuses advance to `contacted` only once sends are approved + executed)
+inquiries:
+  - id: 2026-07-04-ff-jane-delgado
+    received: 2026-07-04T16:12:00Z
+    channel: furnished_finder
+    unit: fremont
+    name: "Jane Delgado"
+    contact: "jane.delgado.rn@example.com / (628) 555-0177"
+    desired_start: 2026-10-08
+    desired_end: 2026-12-05
+    end_tier: RED                      # Dec 5 → next wave Jan 2, ~4wk structural gap
+    counter_proposed: 2027-01-02       # YELLOW — catches Jan healthcare wave
+    quoted: "4080/mo (Oct 8-Dec 5, <2mo tier) or 3808/mo through Jan 2 (2-3mo tier)"
+    status: new
+    pending_approval: [item-1-email, item-1-sms]
+    blocked_on: "Fremont Oct availability — Maria extension unresolved (see item 5)"
+    next_followup_due: 2026-07-06T17:00:00Z   # F2 clock starts at first-touch send
+    touches: []
+    notes: "RN, 8-wk contract at Washington Hospital from Oct 12. Strong lead; counter lowers her monthly rate — easy yes."
+
+  - id: 2026-07-04-ff-priya-raman
+    received: 2026-07-04T17:47:00Z
+    channel: furnished_finder
+    unit: newark
+    name: "Priya Raman"
+    contact: "p.raman@example.com"
+    desired_start: 2026-07-21
+    desired_end: 2026-09-18
+    end_tier: GREEN                    # Sep 18 → Oct 1 wave, ~9 day gap projection
+    quoted: "3584/mo, ~7048 total (2mo tier)"
+    status: new
+    pending_approval: [item-2-email]
+    next_followup_due: 2026-07-06T18:00:00Z
+    touches: []
+    notes: "Stanford program → Menlo Park contract. Clean fit; fills Newark's open gap at 9 days. Competes with Mark for Newark."
+
+  - id: 2026-07-04-ff-mark-osei
+    received: 2026-07-04T20:05:00Z
+    channel: furnished_finder
+    unit: fremont                      # requested; countered with newark
+    name: "Mark Osei"
+    contact: "mark.osei@example.com / (415) 555-0139"
+    desired_start: 2026-08-01
+    desired_end: 2026-12-01
+    end_tier: RED                      # Dec 1; counter to Jan 2 proposed in reply
+    quoted: "3360/mo Newark (4-5mo tier); same rate through Jan 2"
+    status: new
+    pending_approval: [item-3-email, item-3-sms]
+    open_question: "dog — Newark HOA disallows; fork in the road"
+    next_followup_due: 2026-07-06T21:00:00Z
+    touches: []
+    notes: "Tesla contract, 2 adults + small dog. Higher revenue than Priya (4-5mo vs 2mo) but pet + overlap conflict. See digest ranking."
+
+  - id: 2026-07-04-ff-tom-bradylin
+    received: 2026-07-04T22:31:00Z
+    channel: furnished_finder
+    unit: newark
+    name: "Tom Brady-Lin"
+    contact: "tombl@example.com / (206) 555-0164"
+    desired_start: 2026-09-02
+    desired_end: 2026-09-23
+    end_tier: n/a                      # sub-30-day request — floor applies
+    quoted: "3840 for a 30-day Sep 2-Oct 2 block (offered as workaround)"
+    status: new
+    pending_approval: [item-4-email]
+    blocked_on: "Sep availability contingent on Priya/Mark outcome"
+    next_followup_due: null            # no cadence on declines; his move if interested
+    touches: []
+    notes: "3-week project. Offered 30-day workaround; contingent inventory — do not confirm until Newark Aug-Sep resolves."

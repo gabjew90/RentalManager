@@ -1,0 +1,33 @@
+# DEMO DATA — prototype seed showing a filled-in approved-facts file
+shared:
+  lease:
+    minimum_stay_days: 30
+    deposit: "one month's rent"
+    utilities: "included up to $250/mo (electricity, gas, water, trash, internet)"
+    payment: "direct lease — first month + deposit at signing; no booking fees"
+    background_check: "standard application + screening before signing"
+  tour_availability: "video tours any evening; in-person Sat/Sun 10am-4pm"
+
+units:
+  fremont:
+    address_area: "Irvington district, near Fremont Blvd & Washington Blvd"
+    type: "2bd/1ba single-family, ~950 sqft, private entrance"
+    reviews: "23 five-star stays on our listings — link in signature"
+    parking: "driveway spot + free street parking"
+    pets: "cats OK, small dogs case-by-case; $300 pet deposit"
+    workspace: "dedicated desk + 27\" monitor in second bedroom"
+    internet: "AT&T Fiber 500 Mbps"
+    laundry: "in-unit washer/dryer"
+    kitchen: "full kitchen, dishwasher, cookware included"
+    commute_anchors: "7 min drive to Washington Hospital; 12 min to Tesla Fremont; 10 min to Irvington BART (opening) / 15 min to Fremont BART"
+  newark:
+    address_area: "NewPark area, near Cedar Blvd & Mowry Ave"
+    type: "1bd/1ba condo, ~700 sqft, gated community"
+    reviews: "newer listing — same owner/standard as our Fremont 2BR (23 five-star stays)"
+    parking: "1 assigned covered spot"
+    pets: "no pets (HOA)"
+    workspace: "desk nook with monitor"
+    internet: "Xfinity 800 Mbps"
+    laundry: "in-unit stacked washer/dryer"
+    kitchen: "full kitchen, dishwasher"
+    commute_anchors: "12 min to Meta HQ via Dumbarton; 8 min to Newark-area biotech; 20 min to Stanford via 84"

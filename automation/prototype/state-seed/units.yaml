@@ -1,0 +1,41 @@
+# DEMO DATA — prototype seed, not real tenancies
+units:
+  - unit: fremont
+    listing_names:
+      furnished_finder: "Bright 2BR near Washington Hospital — Fremont"
+      airbnb: "Sunny Fremont 2BR · fast WiFi · dedicated workspace"
+    reviewed: true
+    base_rate_monthly: 3400
+    current_tenancy:
+      tenant: "Maria S."
+      contact: "maria.s@example.com / 510-555-0142"
+      channel: furnished_finder
+      lease_start: 2026-04-06
+      lease_end: 2026-09-30          # Green tier (before Oct 1 wave)
+      rate_monthly: 3400
+      extension_status: not_yet_due   # T-60 lands 2026-08-01
+      departure_confirmed: false
+    next_tenancy: null
+    channel_calendar:
+      airbnb_blocked_through: 2026-10-06   # lease end + 6d turnover buffer
+      ff_available_from: 2026-10-07
+
+  - unit: newark
+    listing_names:
+      furnished_finder: "Modern 1BR near Meta/Dumbarton — Newark"
+      airbnb: "Newark 1BR · commuter's dream · new listing"
+    reviewed: false
+    base_rate_monthly: 3200
+    current_tenancy:
+      tenant: "Dev K."
+      contact: "dev.k@example.com"
+      channel: airbnb
+      lease_start: 2026-05-10
+      lease_end: 2026-07-12
+      rate_monthly: 3580
+      extension_status: declined
+      departure_confirmed: true
+    next_tenancy: null                # OPEN — inside T-30, gap risk 🔴
+    channel_calendar:
+      airbnb_blocked_through: 2026-07-18
+      ff_available_from: 2026-07-19
