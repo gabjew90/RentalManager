@@ -1,0 +1,150 @@
+leads:
+  - thread_id: 18e4f73b629385ef
+    received: 2024-03-18
+    type: direct_message
+    listing: 1B1B
+    name: "Emmalyse D."
+    move_in: 2024-05-17
+    move_out: 2024-08-10
+    stay_days: 85
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: Apple
+    gist: "Law student interning at Apple asks to be kept in mind"
+    messages_in_thread: 1
+
+  - thread_id: 18e4f404a8ed226a
+    received: 2024-03-18
+    type: direct_message
+    listing: 1B1B
+    name: "Emmalyse D."
+    move_in: 2024-05-17
+    move_out: 2024-08-10
+    stay_days: 85
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: Apple
+    gist: "Law student needs May-August housing for Apple internship"
+    messages_in_thread: 1
+
+  - thread_id: 18e2b86c66b66c01
+    received: 2024-03-11
+    type: housing_request
+    listing: null
+    name: "Sharath B."
+    move_in: 2024-04-18
+    move_out: 2024-07-17
+    stay_days: 90
+    traveling_to: Oakland
+    occupants: 2
+    pets: false
+    facility: null
+    gist: null
+    messages_in_thread: 2
+
+  - thread_id: 18e26b7632a97000
+    received: 2024-03-10
+    type: housing_request
+    listing: null
+    name: "Nicholas R."
+    move_in: 2024-06-01
+    move_out: 2024-09-30
+    stay_days: 121
+    traveling_to: Berkeley
+    occupants: 4
+    pets: false
+    facility: null
+    gist: "Family of four relocating four months during home renovation"
+    messages_in_thread: 1
+
+  - thread_id: 18de0a8782409ff3
+    received: 2024-02-25
+    type: housing_request
+    listing: null
+    name: "Susan V."
+    move_in: 2024-04-01
+    move_out: 2024-05-31
+    stay_days: 60
+    traveling_to: Danville
+    occupants: 2
+    pets: false
+    facility: null
+    gist: "Couple displaced by home construction after water heater burst"
+    messages_in_thread: 1
+
+  - thread_id: 18dc125f502e7eb3
+    received: 2024-02-19
+    type: booking_inquiry
+    listing: null
+    name: "Marissa S."
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null
+    messages_in_thread: 1
+
+  - thread_id: 18db8e891dec4a34
+    received: 2024-02-17
+    type: housing_request
+    listing: null
+    name: "Julien G."
+    move_in: 2024-03-25
+    move_out: 2024-08-25
+    stay_days: 153
+    traveling_to: Berkeley
+    occupants: 3
+    pets: false
+    facility: UCSF
+    gist: "French engineering student, UCSF research assistant, with two friends"
+    messages_in_thread: 1
+
+  - thread_id: 18da52f2c789ddca
+    received: 2024-02-14
+    type: housing_request
+    listing: null
+    name: "Mason M."
+    move_in: 2024-03-23
+    move_out: 2024-09-26
+    stay_days: 187
+    traveling_to: Orinda
+    occupants: 2
+    pets: false
+    facility: null
+    gist: "Professional athlete and wife want private home, king bed, safe"
+    messages_in_thread: 1
+
+  - thread_id: 18d9f2e143e6d11c
+    received: 2024-02-12
+    type: booking_inquiry
+    listing: null
+    name: "CSI Construction (company)"
+    move_in: 2024-02-26
+    move_out: 2024-12-20
+    stay_days: 298
+    traveling_to: San Leandro
+    occupants: 3
+    pets: false
+    facility: CSI Construction
+    gist: "Construction company needs housing for Fremont jobsite team"
+    messages_in_thread: 1
+
+  - thread_id: 18d9edbc7cf7de9e
+    received: 2024-02-12
+    type: booking_inquiry
+    listing: null
+    name: "CSI Construction (company)"
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: CSI Construction
+    gist: null
+    messages_in_thread: 1

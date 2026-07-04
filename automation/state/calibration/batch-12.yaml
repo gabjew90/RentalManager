@@ -1,0 +1,150 @@
+leads:
+  - thread_id: "194228e44d86d4ee"
+    received: 2025-01-01
+    type: booking_inquiry
+    listing: "1B1B"
+    name: "Yousef D."
+    move_in: 2025-01-13
+    move_out: 2025-03-12
+    stay_days: 58
+    traveling_to: "Fremont"
+    occupants: 4
+    pets: false
+    facility: null
+    gist: "Wants in-person viewing; questions background check for two-month stay"
+    messages_in_thread: 1
+
+  - thread_id: "1941cc63cd9ad2a4"
+    received: 2024-12-31
+    type: booking_inquiry
+    listing: "1B1B"
+    name: "Yousef D."
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: "Generic booking-request notification; details only in dashboard"
+    messages_in_thread: 1
+
+  - thread_id: "1940dd640a9f3f51"
+    received: 2024-12-28
+    type: housing_request
+    listing: null  # references "3B2B House, Big Backyard" (property 640987)
+    name: "Nancy K."
+    move_in: 2025-03-15
+    move_out: 2025-04-14
+    stay_days: 30
+    traveling_to: "Berkeley"
+    occupants: 2
+    pets: false
+    facility: null
+    gist: "Artsy couple returning to Bay Area after caring for aging parents"
+    messages_in_thread: 1
+
+  - thread_id: "1940c430f63eb18b"
+    received: 2024-12-28
+    type: housing_request
+    listing: null  # references "3B2B House, Big Backyard" (property 640987)
+    name: "Boris L."
+    move_in: 2025-02-01
+    move_out: 2025-10-01
+    stay_days: 242
+    traveling_to: "Oakland"
+    occupants: 4
+    pets: false
+    facility: "Oakland"  # verbatim Facility field value; likely destination, not employer
+    gist: "Family of four needs housing during Oakland home remodel"
+    messages_in_thread: 1
+
+  - thread_id: "193f5d2ceb030f59"
+    received: 2024-12-23
+    type: housing_request
+    listing: "1B1B"
+    name: "Rosemarie R."
+    move_in: 2025-07-01
+    move_out: 2025-07-31
+    stay_days: 30
+    traveling_to: "Palo Alto"
+    occupants: 1
+    pets: false
+    facility: null
+    gist: "Escaping summer heat; flexible July/August; needs parking and kitchen"
+    messages_in_thread: 1
+
+  - thread_id: "193f080837dd6e68"
+    received: 2024-12-22
+    type: direct_message
+    listing: null  # references "3B2B House, Big Backyard" (property 640987)
+    name: "Benjamin"  # no last name given in message body
+    move_in: 2025-01-01
+    move_out: 2025-03-31
+    stay_days: 89
+    traveling_to: null
+    occupants: 2
+    pets: null
+    facility: null
+    gist: "Two travel nurses seeking housing; want viewing before applying"
+    messages_in_thread: 1
+
+  - thread_id: "193f00fb768630b7"
+    received: 2024-12-22
+    type: direct_message
+    listing: null  # references "3B2B House, Big Backyard" (property 640987)
+    name: "Benjamin"  # no last name given in message body
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: 2
+    pets: null
+    facility: null
+    gist: "Two travel nurses seeking housing; want viewing before applying"
+    messages_in_thread: 1
+
+  - thread_id: "193e9b7787d95623"
+    received: 2024-12-21
+    type: housing_request
+    listing: null  # references "3B2B House, Big Backyard" (property 640987)
+    name: "Rich K."
+    move_in: 2024-12-29
+    move_out: 2025-01-28
+    stay_days: 30
+    traveling_to: "San Rafael"
+    occupants: 3
+    pets: false
+    facility: null
+    gist: null  # no traveler notes; extracted from htmlBody (plaintextBody empty)
+    messages_in_thread: 3
+
+  - thread_id: "193cb562d706777c"
+    received: 2024-12-15
+    type: housing_request
+    listing: null  # references "3B2B House, Big Backyard" (property 640987)
+    name: "Canitria D."
+    move_in: 2025-01-06
+    move_out: 2025-04-26
+    stay_days: 110
+    traveling_to: "San Francisco"
+    occupants: 2
+    pets: false
+    facility: "Kaiser San Francisco"
+    gist: "Two traveling nurses looking for a three month lease"
+    messages_in_thread: 1
+
+  - thread_id: "193b6fd76155ad91"
+    received: 2024-12-11
+    type: housing_request
+    listing: "1B1B"
+    name: "Jim E."
+    move_in: 2025-01-18
+    move_out: 2025-03-18
+    stay_days: 59
+    traveling_to: "Palo Alto"
+    occupants: 2
+    pets: false
+    facility: "retired"  # verbatim Facility field value
+    gist: "Stanford transplant patient with wife caregiver needs very clean housing"
+    messages_in_thread: 1
