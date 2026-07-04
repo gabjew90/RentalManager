@@ -1,43 +1,29 @@
 # Units dashboard — single source of truth for dates. Agent-maintained.
-# PLACEHOLDER DATA: the agent will refuse to run until the operator replaces
-# every <...> value with real data.
+# Seeded 2026-07-04 from FF emails in the operator's Gmail. Fields marked
+# CONFIRM are unverified — the agent must not confirm availability to any
+# lead until the operator fills them.
+#
+# NOTE: business-context docs assumed units "Fremont" and "Newark"; observed
+# FF listings are a 1B1B (Fremont, CA) and a 2BR (city unconfirmed — lead
+# emails reference Palo Alto / Menlo Park / Sunnyvale area requests).
+# Operator to reconcile naming.
 units:
-  - unit: fremont
+  - unit: unit_1b1b
     listing_names:
-      furnished_finder: "<FF listing title>"
-      airbnb: "<Airbnb listing title>"
-    reviewed: true                  # this unit has the review history
-    base_rate_monthly: <e.g. 3400>  # 6+ month rate, USD
-    current_tenancy:
-      tenant: "<name>"
-      contact: "<email/phone>"
-      channel: <furnished_finder|airbnb>
-      lease_start: <YYYY-MM-DD>
-      lease_end: <YYYY-MM-DD>
-      rate_monthly: <USD>
-      extension_status: not_yet_due   # not_yet_due|offered|accepted|declined|month_to_month
-      departure_confirmed: false
-    next_tenancy: null                # or {tenant, channel, move_in: YYYY-MM-DD, lease_end, rate_monthly}
-    channel_calendar:
-      airbnb_blocked_through: <YYYY-MM-DD>   # what the Airbnb calendar currently shows
-      ff_available_from: <YYYY-MM-DD>        # what the FF listing currently shows
+      furnished_finder: "Ultra Clean 1B1B King Suite, Modern Kitchen, In-Unit WD, Balcony, Carport, Netflix"
+    city: "Fremont, CA"                # from FF direct-message metadata (2026-05-04)
+    listed_rate_monthly: 3800          # from FF direct-message metadata (2026-05-04)
+    reviewed: CONFIRM                  # which unit carries the review history?
+    current_tenancy: CONFIRM           # occupied? tenant? lease start/end?
+    next_tenancy: CONFIRM
+    notes: "Heavy FF inquiry traffic Apr–early May 2026, then quiet — possibly booked in May. No booking-confirmation email found; occupancy unknown."
 
-  - unit: newark
+  - unit: unit_2br
     listing_names:
-      furnished_finder: "<FF listing title>"
-      airbnb: "<Airbnb listing title>"
-    reviewed: false                  # newer unit — templates cross-reference Fremont's reviews
-    base_rate_monthly: <USD>
-    current_tenancy:
-      tenant: "<name>"
-      contact: "<email/phone>"
-      channel: <furnished_finder|airbnb>
-      lease_start: <YYYY-MM-DD>
-      lease_end: <YYYY-MM-DD>
-      rate_monthly: <USD>
-      extension_status: not_yet_due
-      departure_confirmed: false
-    next_tenancy: null
-    channel_calendar:
-      airbnb_blocked_through: <YYYY-MM-DD>
-      ff_available_from: <YYYY-MM-DD>
+      furnished_finder: "Ultra Clean Two-Story 2BR 1.5BA, In-Unit WD, Carport, Netflix"
+    city: CONFIRM                      # lead emails reference Palo Alto / Menlo Park / Sunnyvale area
+    listed_rate_monthly: CONFIRM
+    reviewed: CONFIRM
+    current_tenancy: CONFIRM
+    next_tenancy: CONFIRM
+    notes: "Exact-matched to the live 2026-07-03 housing-request lead (Sep 1 – Dec 31). Availability unknown pending operator confirmation."

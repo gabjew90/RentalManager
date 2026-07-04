@@ -1,19 +1,27 @@
 # Inquiry log — agent-maintained, append-only. Feeds demand-window recalibration.
-# Example entry (delete once real entries exist):
-# - id: 2026-07-04-ff-jane-d
-#   received: 2026-07-04T16:20:00Z
-#   channel: furnished_finder        # furnished_finder | airbnb
-#   unit: fremont
-#   name: "Jane D."
-#   contact: "jane@example.com / 555-0100"
-#   desired_start: 2026-09-01
-#   desired_end: 2026-12-15
-#   end_tier: RED                    # computed per system-design §3
-#   status: new                      # new|contacted|in_conversation|qualified|
-#                                    # application_sent|hold|signed|dead|dormant
-#   dead_reason: null                # price|dates|ghosted|chose_elsewhere|unqualified
-#   touches:                         # follow-up cadence state (ff-lead-followup workflow)
-#     - {at: 2026-07-04T16:45:00Z, template: I1, channel: email}
-#   next_followup_due: 2026-07-06T16:45:00Z   # null once replied/dormant/dead
-#   notes: "travel nurse, contract confirmed; C1 counter to 2026-12-22 queued"
-inquiries: []
+# Contact details masked in-repo until repo privacy is confirmed; full contact
+# lives in the operator's Gmail (thread IDs recorded here).
+inquiries:
+  - id: 2026-07-03-ff-huzayfa-j
+    received: 2026-07-03T15:40:53Z
+    gmail_thread: 19f28a3d66bc6e85
+    channel: furnished_finder
+    type: housing_request
+    unit: unit_2br                    # FF matched "Exact"
+    name: "Huzayfa J."
+    contact: "hu***@gmail.com / 647-***-9867 (full in Gmail thread)"
+    desired_start: 2026-09-01
+    desired_end: 2026-12-31           # 121 days ≈ 4 months
+    end_tier: YELLOW                  # Dec 31 ∈ Dec 19–Jan 5 — catches Jan wave; no counter needed
+    date_counter: null
+    occupants: 2
+    pets: false
+    facility: "Tesla (interns)"
+    scorecard:
+      availability_fit: UNCONFIRMED   # units.yaml occupancy = CONFIRM pending operator
+      start_alignment: unknown        # depends on current tenancy end
+      quality: "2 interns, no pets, no smoking/drinking, 4-month stay, exact listing match — solid lead"
+      recommendation: reply           # draft created; non-committal on availability until operator confirms
+    status: new                       # → contacted once operator sends the Gmail draft
+    outreach_draft: gmail_draft       # created 2026-07-04, in operator's Drafts folder
+    notes: "Lead ~24h old at first processing; competitors likely responded already — send soon."
