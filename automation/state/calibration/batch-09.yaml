@@ -1,0 +1,150 @@
+leads:
+  - thread_id: 19a22811050a715a
+    received: 2025-10-26
+    type: booking_inquiry
+    listing: 1B1B
+    name: Merissa T.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null
+    messages_in_thread: 1
+
+  - thread_id: 19a07e4d989d9e63
+    received: 2025-10-21
+    type: direct_message
+    listing: 1B1B
+    name: Ahmad A.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: Interested in apartment, asking about terms and conditions
+    messages_in_thread: 1
+
+  - thread_id: 199fa0069ad58b60
+    received: 2025-10-19
+    type: housing_request
+    listing: null
+    name: Valerie R.
+    move_in: 2025-10-28
+    move_out: 2025-11-29
+    stay_days: 32
+    traveling_to: Los Altos
+    occupants: 1
+    pets: true
+    facility: Los Altos School District
+    gist: null
+    messages_in_thread: 1
+
+  - thread_id: 199cc932457fa681
+    received: 2025-10-10
+    type: direct_message
+    listing: 1B1B
+    name: Katarzyna A.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: 2
+    pets: true
+    facility: null
+    gist: ER travel nurse with toddler and cat seeks short-to-longer rental
+    messages_in_thread: 1
+
+  - thread_id: 199c7e54aae946c9
+    received: 2025-10-09
+    type: housing_request
+    listing: null
+    name: Hener S.
+    move_in: 2025-10-24
+    move_out: 2025-11-30
+    stay_days: 37
+    traveling_to: Menlo Park
+    occupants: 2
+    pets: true
+    facility: null
+    gist: null
+    messages_in_thread: 1
+
+  - thread_id: 199aabfe70c06e39
+    received: 2025-10-03
+    type: booking_inquiry
+    listing: 1B1B
+    name: Brieanne M.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null
+    messages_in_thread: 1
+
+  - thread_id: 199a7a4447beec39
+    received: 2025-10-03
+    type: direct_message
+    listing: null
+    name: Brieanne M.
+    move_in: 2025-11-22
+    move_out: 2026-03-01
+    stay_days: 99
+    traveling_to: Fremont
+    occupants: 1
+    pets: true
+    facility: null
+    gist: X-ray tech describes her well-traveled rescue lab mix dog
+    messages_in_thread: 1
+
+  - thread_id: 199a6bec204dfb02
+    received: 2025-10-02
+    type: booking_inquiry
+    listing: 1B1B
+    name: Brieanne M.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null
+    messages_in_thread: 1
+
+  - thread_id: 199a05ff7d2a5fae
+    received: 2025-10-01
+    type: direct_message
+    listing: 1B1B
+    name: Jami B.
+    move_in: 2025-10-17
+    move_out: 2026-01-17
+    stay_days: 92
+    traveling_to: Fremont
+    occupants: 2
+    pets: true
+    facility: Lockheed
+    gist: Couple with two cats relocating for husband's Lockheed job
+    messages_in_thread: 1
+
+  - thread_id: 1999ff6dd24f5675
+    received: 2025-10-01
+    type: booking_inquiry
+    listing: 1B1B
+    name: Jami B.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null
+    messages_in_thread: 1

@@ -43,30 +43,29 @@ Unit, tenant, channel, start, end, monthly rate, term-premium tier applied, actu
 
 Date, channel, name, desired start/end, end-date tier of *their proposed end date*, status (replied / qualified / toured / signed / dead). Filled in as part of answering the inquiry, not as separate admin.
 
-## 3. Demand calendar (SF Bay, mid-term furnished)
+## 3. Demand calendar (SF Bay, mid-term furnished) — CALIBRATED FROM LEAD DATA
 
-Demand clusters around predictable move-in waves:
+**Source: 160 real FF leads, Feb 2024 – Jul 2026** (`automation/state/calibration/summary.md`). The originally assumed healthcare-quarterly model was not supported; these units live on the **tech/intern cycle**:
 
-| Move-in wave | Driver | When they search |
-|---|---|---|
-| Jan 2–15 | Healthcare Q1 contracts | Nov – late Dec |
-| Apr 1–14 | Healthcare Q2 contracts | Feb – Mar |
-| May 15 – Jun 30 | Interns, academics, summer relocations | Mar – May |
-| Jul 1–14 | Healthcare Q3 contracts (peak season) | May – Jun |
-| Aug 15 – Sep 30 | Academic year starts | Jun – Aug |
-| Oct 1–14 | Healthcare Q4 contracts | Aug – Sep |
+| Wave | Who | When they search | Move in | Move out |
+|---|---|---|---|---|
+| **Summer interns/new grads (dominant — ~40% of all dated demand)** | Meta, Google, Tesla, Intel, Stanford; often 2-person pairs | **Feb–Apr** (51% of annual lead volume; March alone is the peak) | **May** (44 of 107 dated leads) | **Mid/late Aug** (45 of 102) |
+| Fall movers (secondary) | Tech/corporate relocations, some academic | Oct bump | Sep–Oct, some Jan | Mar–Apr (a real Sep→spring long-stay cohort) |
+| Healthcare travelers | ~4% of leads | scattered | scattered | scattered |
 
-A **good end date is one that sits 7–14 days before a move-in wave.** That yields the end-date tiers used everywhere in this system:
+Median requested stay: **~91 days**. Search volume **May–July is near zero** (3/6/1 leads per calendar month across 2.5 years).
+
+**End-date tiers** (a good end date opens the unit into a period when people are actually searching to move in soon):
 
 | Tier | End-date windows | Why |
 |---|---|---|
-| 🟢 Green | **Mar 18 – Sep 23** | Rolling demand: Apr wave, then May–Sep continuous (interns + Jul wave + academic), then Oct 1 wave catches late-Sep ends. |
-| 🟡 Yellow | **Dec 19 – Jan 5** · **Mar 1 – 17** · **Sep 24 – 30** | Adjacent to a wave but with holiday risk (Dec/Jan) or slightly early/late timing. Workable with early pre-marketing. |
-| 🔴 Red | **Oct 1 – Dec 18** · **Jan 6 – Feb 28** | Post-wave dead zones. An Oct 20 end date means the next big wave is Jan — a 10-week structural gap unless bridged. Worst stretch: mid-Oct through Nov. |
+| 🟢 Green | **Apr 1 – May 15** | Unit opens straight into the May wave — the one high-certainty fill of the year |
+| 🟡 Yellow | **Aug 15 – Oct 10** · **Dec 15 – Jan 20** · **Feb 15 – Mar 31** | Aug/Sep: real Sep–Oct demand but everyone's intern-vacated units hit the market at once · Dec/Jan: modest Jan-mover cohort · late winter: peak *search* season but most searchers want May — gap risk until the wave |
+| 🔴 Red | **May 16 – Aug 14** (worst: June–July) · **Oct 11 – Dec 14** · **Jan 21 – Feb 14** | A June/July opening faces an empty search market — the single most expensive end-date mistake for these units |
 
-**Demand mix:** inquiries blend interns/academics, tech and corporate relocations, and healthcare travelers. The waves above ride on a steady corporate-relocation baseline, so Red windows are *slow, not dead* — pre-marketing earlier and pricing seasonally still fills them, just less predictably.
+**Canonical unit year** that end-date engineering steers toward: **May → mid-Aug intern stay**, then **Sep → early/mid-April anchor** (one long stay, or Sep–Dec + Jan–Apr), ending in the Green window to catch the next May wave.
 
-Calibration: these windows are derived from the stated contract cycles, not measured data. Once the inquiry log has two or three quarters of desired-start dates, adjust the boundaries from observed demand.
+Calibration notes: lead-arrival volume is partly confounded by when the listings were open; the tiers lean on desired move-in/move-out months, which aren't. Recalibrate annually from the inquiry log (n grows with every lead the agent processes).
 
 ## 4. End-date engineering
 
@@ -77,7 +76,10 @@ Never passively accept a tenant-proposed end date. At every lease signing and ex
 3. If Yellow/Red → counter with a prorated term that shifts the end into Green (template C1). Prefer **lengthening** the stay (more revenue, and tenants rarely object to "we can do 3.5 months instead of 3"). Shift by whatever it takes; odd terms are fine — price the extra days at straight daily proration (monthly ÷ 30).
 4. If the tenant genuinely can't flex (contract-tied dates), accept but price the tail risk: apply the next term-premium tier up (§6), and flag the row Yellow/Red so pre-marketing starts at T−60 instead of T−45.
 
-Red-window rule of thumb: a tenancy ending Oct–Feb should either be extended through the winter (ideal: end mid-March or later) or end **Dec 19 – Jan 5** to catch the January healthcare wave. An end date in mid-October or November is the single most expensive date mistake this business can make.
+Red-window rules of thumb (from the calibrated calendar in §3):
+- **Never let a tenancy end in June or July** — the search market is empty until fall. An intern stay should run through at least mid-August; extensions that push a May/June end into Aug–Sep are worth real concessions.
+- A tenancy ending Oct–Feb should either be extended to land **Dec 15 – Jan 20** (Jan-mover cohort) or, better, carried all the way to **early April** (Green) — that's the canonical Sep→April anchor.
+- The most valuable single end window of the year is **Apr 1 – May 15**; when in doubt, engineer toward it.
 
 ## 5. Channel mechanics and coordination
 
