@@ -30,20 +30,21 @@ Monthly (add 30 min once a month): comp check on 3–5 similar listings per unit
 Runs only if extension declined or no answer by deadline. If T is Red-tier, run this whole block at T−60 instead.
 - [ ] Written departure confirmation (template D1) — locks the date and starts the countdown cleanly.
 - [ ] Tracker: `Departure confirmed = Yes`.
-- [ ] **Furnished Finder:** set availability date = T+7. Refresh listing (rate per pricing table, photos, description).
-- [ ] **Airbnb:** open calendar from T+7 onward; keep T…T+6 blocked for turnover. Set min-stay to 2 months initially (hold for an anchor first).
+- [ ] **Both channels, same day, equal footing** (channel policy is opportunistic — design §5):
+  - **Furnished Finder:** set availability date = T+7. Refresh listing (rate per pricing table, photos, description).
+  - **Airbnb:** open calendar from T+7 onward; keep T…T+6 blocked for turnover. Min-stay stays at the permanent 30-day floor — term premiums, not min-stay gating, steer toward longer stays.
 - [ ] Set pricing for the projected next-tenancy season (design §6).
 - [ ] Start working inquiries same-day using templates I1/I2.
 
 ### T−30 · Pipeline review (only if next move-in not confirmed)
 - [ ] Rate check against comps; correct if above market.
-- [ ] Airbnb: lower min-stay to 1 month.
+- [ ] Verify Airbnb is at the 30-day min-stay floor (never lower — local STR rules) and priced per the season.
 - [ ] Furnished Finder: refresh/bump the listing; re-contact every qualified-but-stalled inquiry from the log (template F1).
 
 ### T−14 · Bridge mode (only if still unbooked)
-- [ ] Airbnb: min-stay down to 2 weeks, bridge pricing (+20% tier).
-- [ ] **Engineer the bridge end date:** size any bridge stay so *its* end lands 7–14 days before the next demand wave — a bridge that ends Nov 20 just recreates the problem.
-- [ ] Consider −5% on the anchor listing price; note it in the log.
+- [ ] Actively pitch **1-month bridge stays** at the +20% tier (both channels; Airbnb usually fills these fastest). Never below 30 days.
+- [ ] **Engineer the bridge end date:** size the bridge (1, 1.5, 2 months — prorate freely) so *its* end lands 7–14 days before the next demand wave — a bridge that ends Nov 20 just recreates the problem.
+- [ ] Consider −5% on the listed price for longer terms; note it in the log.
 
 ### T−7 · Turnover prep
 - [ ] Confirm cleaner/maintenance/staging for T+1 … T+5.
@@ -64,8 +65,8 @@ Runs only if extension declined or no answer by deadline. If T is Red-tier, run 
 Work down the ladder; each step is roughly a week apart and already embedded in the T−30/T−14 triggers above:
 
 1. **Price** — comp check, correct the rate.
-2. **Widen** — shorter min-stay on Airbnb; FF bump + re-contact stalled leads.
-3. **Bridge** — short Airbnb stay at +20%, end-date engineered to the next wave.
+2. **Widen** — FF bump + re-contact stalled leads; confirm Airbnb is at the 30-day floor and seasonally priced.
+3. **Bridge** — 1–2 month stay at +20%, end-date engineered to the next wave (30-day floor always holds).
 4. **Buy the date** — for a strong applicant with slightly-off dates, discount or prorate to close; per design §7, anything cheaper than the gap it prevents is profitable.
 
 Never hold out past T−14 for a full-price anchor while refusing bridges — a structurally empty unit waiting for January is the exact failure this system exists to prevent.

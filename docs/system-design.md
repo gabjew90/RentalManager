@@ -64,6 +64,8 @@ A **good end date is one that sits 7–14 days before a move-in wave.** That yie
 | 🟡 Yellow | **Dec 19 – Jan 5** · **Mar 1 – 17** · **Sep 24 – 30** | Adjacent to a wave but with holiday risk (Dec/Jan) or slightly early/late timing. Workable with early pre-marketing. |
 | 🔴 Red | **Oct 1 – Dec 18** · **Jan 6 – Feb 28** | Post-wave dead zones. An Oct 20 end date means the next big wave is Jan — a 10-week structural gap unless bridged. Worst stretch: mid-Oct through Nov. |
 
+**Demand mix:** inquiries blend interns/academics, tech and corporate relocations, and healthcare travelers. The waves above ride on a steady corporate-relocation baseline, so Red windows are *slow, not dead* — pre-marketing earlier and pricing seasonally still fills them, just less predictably.
+
 Calibration: these windows are derived from the stated contract cycles, not measured data. Once the inquiry log has two or three quarters of desired-start dates, adjust the boundaries from observed demand.
 
 ## 4. End-date engineering
@@ -84,9 +86,13 @@ Two channels with fixed, different mechanics:
 | | Furnished Finder | Airbnb |
 |---|---|---|
 | Model | Lead gen → direct lease, no booking fee | Booking platform, commission, own reviews/ranking |
-| Best for | **Anchor tenancies** (3–6+ months) | **Gap fills and bridges** (2 weeks – 2 months), and anchors when a strong booking appears |
+| Strengths | No-fee direct leases; strong for longer tenancies | Fast fills; strong for shorter stays and quick turnarounds |
 | Payments | Direct (deposit + rent) | Platform-handled |
 | Reviews | Portfolio-level trust (cross-reference works) | Per-listing ranking; response rate/time affect visibility |
+
+**Channel policy is opportunistic, not hierarchical.** Both channels open simultaneously at T−45 on equal footing; the winning booking is whichever nets more after the date-fit override (§6) — channel preference never decides. The Airbnb gross-up (§6) makes net revenue comparable across channels, and term premiums (not min-stay gating) steer the mix toward longer stays.
+
+**30-day floor on all stays, both channels.** Fremont and Newark treat sub-30-day stays as short-term rentals (permit + transient occupancy tax). This system never books under 30 days; the shortest instrument is a 1-month bridge. Airbnb min-stay is set to 30 days permanently.
 
 **Anti-double-booking protocol** (calendars can't sync programmatically — assume manual):
 
@@ -106,12 +112,12 @@ Base rate = the 6+ month monthly rate per unit, reviewed monthly against comps (
 | 6+ months | Base | Anchor tenancy, minimal turnover load |
 | 4–5 months | +5% | |
 | 2–3 months | +12% (band 10–15%) | Turnover-heavy bookings fund the vacancy risk they create |
-| < 2 months (bridges) | +20% | Airbnb gap fills |
+| 1–2 months (bridges) | +20% | Shortest bookable term — the 30-day floor (§5) means nothing shorter exists |
 
 Adjustments, applied in order:
 
 1. **Term premium** (table above).
-2. **Channel gross-up:** Airbnb advertised price = target net ÷ (1 − Airbnb commission %), so both channels net the same. Direct FF leases carry no gross-up — that margin is why FF anchors are preferred.
+2. **Channel gross-up:** Airbnb advertised price = target net ÷ (1 − Airbnb commission %), so both channels net the same and can be compared purely on dates and net revenue (the opportunistic policy in §5 depends on this).
 3. **Season:** stays mostly covering Nov–Feb may take −5% (or bundled utilities) to close; May–Sep peak can carry +5%.
 4. **Date-fit override:** an inquiry whose end date is Green is worth more than its rate suggests; one ending Red is worth less. When comparing two inquiries, subtract the expected gap cost each one's end date creates (§7). A slightly cheaper tenant ending March 20 beats a pricier one ending October 25.
 
