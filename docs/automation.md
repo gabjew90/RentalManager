@@ -4,9 +4,20 @@ Automated implementation of [system-design.md](system-design.md). The spec stays
 
 ## The constraint that shapes everything
 
-Neither channel exposes an API to a two-unit operator: Furnished Finder has none; Airbnb has none for individual hosts (scraping violates ToS and risks the account — off the table). But **both channels push every event into the operator's Gmail**: FF lead emails (with the lead's name, dates, phone, email), Airbnb inquiry/booking/message notifications, and tenant email threads.
+Neither channel hands an API to a two-unit operator directly — but the gap is bridgeable at several rungs, and the architecture is staged accordingly:
 
-Therefore: **Gmail is the event bus. The LLM agent is the consumer. This git repository is the database. The operator is an approval step, not a worker.**
+| Rung | Mechanism | Cost / risk | What it unlocks |
+|---|---|---|---|
+| 0 | **Gmail ingest** — both channels push every event (FF leads with full contact info, Airbnb notifications) into email | Free, zero risk | Baseline event bus; FF leads genuinely arrive as email, so email *is* FF's inquiry API |
+| 1 | **Airbnb iCal two-way sync** — Airbnb exports each listing calendar as an iCal URL and imports external `.ics` feeds, auto-blocking their dates. The agent publishes a feed per unit (`automation/calendar/<unit>.ics`, statically hosted); Airbnb polls it every few hours | Free, ToS-clean | Automated block-before-yes on Airbnb + booking reads. No clicks, no browser |
+| 2 | **Official Airbnb API partner as bridge** — individual hosts get no API, but approved channel managers (Hospitable, Hostaway, Lodgify) do, and expose their own APIs/webhooks. Connect Airbnb → bridge once; agent consumes webhooks and **sends Airbnb messages programmatically, legitimately** | ~$30–40/mo, ToS-clean | Real-time events instead of polling; deletes the paste-into-app human step; calendar + pricing writes |
+| 3 | **Browser control** (Playwright / computer use) — for surfaces nothing else reaches. Appropriate for Furnished Finder's availability-date field (rare, simple, low bot-detection stakes). Last resort for Airbnb: the account is the channel *plus* the review asset, and rung 2 makes it unnecessary | Free; account risk scales with target's enforcement | FF listing updates without the operator |
+
+**Operator interface:** a Telegram bot with inline approve/deny buttons (instant push, ask-anytime commands) is the target; the email digest is the fallback and works from day one with zero extra infrastructure. A self-hosted agent gateway (e.g., OpenClaw: Telegram + cron + browser + Gmail in one runtime) is a valid alternative host for the whole manager — trade-off: you own its security posture, and browser credentials + untrusted inbound tenant messages make prompt injection a live threat there. The approval gate on binding actions is the defense and is non-negotiable in every variant.
+
+**Invariants across all rungs:** the LLM agent is the manager, this git repository is the database, the operator is an approval step — the rungs only change how events arrive and how actions go out.
+
+Rollout: **rung 0 + email digest ships first** (it needs only Gmail auth), rung 1 the first week, rung 2 + Telegram as the standing state. Rung 3 only for FF.
 
 ## Components
 
@@ -35,9 +46,9 @@ Therefore: **Gmail is the event bus. The LLM agent is the consumer. This git rep
 |---|---|---|
 | **Auto (standing approval)** | First-touch qualification replies to FF leads (template I1, sent from Gmail); logging; state updates; reminders; KPI reports | Executed and reported in digest — no approval wait, protects same-day response SLA |
 | **Approve-to-send** | Extension offers (E1), end-date counters (C1), departure confirmations (D1), stalled-lead re-contact (F1), price changes, 48h holds, anything that commits money or dates | Drafted in full; sent only on your "yes"; every digest item has a stated default if you ignore it (usually "hold") |
-| **Human-only (physical)** | Pasting Airbnb replies into the app (agent drafts; no API to send), blocking dates on the Airbnb calendar / updating the FF availability date (agent gives the exact instruction: "Block Oct 3 – Dec 1 on Airbnb ✅?"), signing leases, deposits, turnover work | Agent generates the exact action + tracks that you confirmed it done — the block-before-yes rule is enforced by the agent refusing to confirm dates to anyone until you've confirmed the other channel is blocked |
+| **Human-only (physical)** | Signing leases, deposits, turnover work — plus, **at rung 0 only**: pasting Airbnb replies (automated at rung 2) and calendar blocks / FF availability updates (automated at rungs 1 and 3) | Agent generates the exact action + tracks that you confirmed it done — block-before-yes is enforced by the agent refusing to confirm dates to anyone until the opposite channel's block is confirmed (by you at rung 0; by iCal/bridge state at rungs 1–2) |
 
-Expected operator load: **~3–5 one-tap approvals per week, a couple of Airbnb pastes, and channel-calendar clicks a few times a year.** No spreadsheet, no manual tracking, no remembering trigger dates — the agent computes and fires them.
+Expected operator load at the standing state (rungs 1–2 live): **~3–5 approval taps per week and nothing else** — no pastes, no calendar clicks, no spreadsheet, no remembering trigger dates. At rung 0 add a couple of Airbnb pastes and the rare calendar click.
 
 ## Safety rails
 
