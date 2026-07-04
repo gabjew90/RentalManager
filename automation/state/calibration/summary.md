@@ -24,13 +24,21 @@ search bump with Sep/Oct and some Jan move-ins, plus a visible Sep→Mar/Apr lon
 cohort (move-outs Mar 12 + Apr 10). The healthcare-quarterly model assumed in the original
 design is NOT supported for these units.
 
+## Day-level arrival distributions (used to embed the 7–14 day gap in the tiers)
+
+- May move-in days: spread 1–30, **median May 16**, big cluster May 16–17, secondary clusters May 1 and May 30 (n=44)
+- Aug move-out days: spread 1–31, **median Aug 16** (n=45)
+- Sep move-ins: Sep 1 ×2, then mid/late Sep (n=9) · Oct move-ins: Oct 1 + mid/late Oct (n=9) · Jan move-ins: spread Jan 1–23 (n=9) · Apr move-ins sparse (n=9)
+
 ## Empirical end-date tiers (supersede the assumed ones)
+
+Tiers are constructed so **end date + 7–14 days (the turnover gap) lands on observed arrivals**:
 
 | Tier | End-date windows | Why |
 |---|---|---|
-| 🟢 GREEN | **Apr 1 – May 15** | Unit opens straight into the May wave — the one high-certainty fill of the year |
-| 🟡 YELLOW | **Aug 15 – Oct 10** · **Dec 15 – Jan 20** · **Feb 15 – Mar 31** | Aug/Sep: real Sep-Oct demand but market floods with intern-vacated supply · Dec/Jan: modest Jan-mover cohort · late winter: peak search season, but most searchers want May — gap risk until then |
-| 🔴 RED | **May 16 – Aug 14** (worst: June–July) · **Oct 11 – Dec 14** · **Jan 21 – Feb 14** | A June/July opening faces a near-zero search market — the single most expensive end-date mistake for these units (the old calendar called this window green!) |
+| 🟢 GREEN | **Apr 17 – May 23** (sweet spot May 1–10) | End + 7–14d hits the May arrival wave directly. Early April ends are excluded: Apr arrivals barely exist, so an Apr 1 end idles ~4 weeks |
+| 🟡 YELLOW | **Aug 15 – Oct 10** · **Dec 15 – Jan 20** · **Feb 15 – Apr 16** | Sep/Oct arrivals real but thin + intern-vacated supply flood · Jan-mover cohort (Jan 1–23) · sparse spring arrivals, May wave beyond the gap target as backstop |
+| 🔴 RED | **May 24 – Aug 14** (worst: June–July) · **Oct 11 – Dec 14** · **Jan 21 – Feb 14** | Arrival deserts; June/July openings face a near-zero search market (the old assumed calendar called this window green!) |
 
 ## Canonical unit year (what end-date engineering should steer toward)
 
