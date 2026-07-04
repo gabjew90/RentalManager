@@ -1,0 +1,150 @@
+leads:
+  - thread_id: "191ee0256988a763"
+    received: 2024-09-14
+    type: housing_request
+    listing: null
+    name: "Stephen N."
+    move_in: 2024-09-30
+    move_out: 2025-01-14
+    stay_days: 106
+    traveling_to: "Castro Valley"
+    occupants: 3
+    pets: false
+    facility: "self employed"
+    gist: "Coming to the area to expand his business"
+    messages_in_thread: 1
+
+  - thread_id: "191d414b5a53cd10"
+    received: 2024-09-09
+    type: housing_request
+    listing: null
+    name: "Robin M."
+    move_in: 2025-01-23
+    move_out: 2025-05-15
+    stay_days: 112
+    traveling_to: "Berkeley"
+    occupants: 1
+    pets: false
+    facility: "private practice"
+    gist: "Clinical psychologist, 67, hoping to relocate to Bay Area"
+    messages_in_thread: 1
+
+  - thread_id: "191cdb325e8a404d"
+    received: 2024-09-07
+    type: direct_message
+    listing: null
+    name: "Lucia V."
+    move_in: 2024-10-01
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: "Asks if rental available Oct 1 for 4-5 month stay"
+    messages_in_thread: 1
+
+  - thread_id: "191c50b6106ec183"
+    received: 2024-09-06
+    type: housing_request
+    listing: null
+    name: "Christen S."
+    move_in: 2024-10-18
+    move_out: 2025-01-31
+    stay_days: 105
+    traveling_to: "San Francisco"
+    occupants: 6
+    pets: true
+    facility: "Kaiser"
+    gist: "Travel nurse family of six with cat and dog"
+    messages_in_thread: 1
+
+  - thread_id: "191bee877e3dcfec"
+    received: 2024-09-04
+    type: direct_message
+    listing: null
+    name: "Lucia V."
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: 4
+    pets: true
+    facility: null
+    gist: "Wants to move in September 22nd or 29th"
+    messages_in_thread: 2
+
+  - thread_id: "191bee35d4aca056"
+    received: 2024-09-04
+    type: direct_message
+    listing: null
+    name: "Lucia V."
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: 4
+    pets: true
+    facility: null
+    gist: "Family of four, two small dogs, 4-5 months wanted"
+    messages_in_thread: 1
+
+  - thread_id: "1918ce9bad3fe53b"
+    received: 2024-08-26
+    type: housing_request
+    listing: null
+    name: "Jeremy G."
+    move_in: 2024-09-14
+    move_out: 2024-11-30
+    stay_days: 77
+    traveling_to: "San Mateo"
+    occupants: 2
+    pets: false
+    facility: "UCSF"
+    gist: "Two travel nurses want private unit, parking for two cars"
+    messages_in_thread: 1
+
+  - thread_id: "1915ea5cce952033"
+    received: 2024-08-17
+    type: direct_message
+    listing: null
+    name: "Thai"
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: true
+    facility: null
+    gist: "Asks if two small trained dogs can be accommodated"
+    messages_in_thread: 1
+
+  - thread_id: "19133aa4313a4f6a"
+    received: 2024-08-08
+    type: direct_message
+    listing: "1B1B"
+    name: "Vincent"
+    move_in: 2024-08-12
+    move_out: 2024-09-10
+    stay_days: 29
+    traveling_to: null
+    occupants: 2
+    pets: false
+    facility: "StaycationPM (insurance placement)"
+    gist: "Insurance-displaced couple needs one-month stay, asks rate"
+    messages_in_thread: 1
+
+  - thread_id: "190657871a3f3aae"
+    received: 2024-06-29
+    type: booking_inquiry
+    listing: "1B1B"
+    name: "Siera H."
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null
+    messages_in_thread: 1

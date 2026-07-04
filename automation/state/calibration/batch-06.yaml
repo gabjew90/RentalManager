@@ -1,0 +1,150 @@
+leads:
+  - thread_id: 19cb030d5792974a
+    received: 2026-03-02
+    type: housing_request
+    listing: 2BR
+    name: Angelina R.
+    move_in: 2026-05-24
+    move_out: 2026-09-12
+    stay_days: 111
+    traveling_to: Stanford
+    occupants: 2
+    pets: false
+    facility: Financial District
+    gist: Stanford student and intern roommate want housing near Nob Hill/FiDi
+    messages_in_thread: 1
+
+  - thread_id: 19cacf8e7a093fdb
+    received: 2026-03-02
+    type: housing_request
+    listing: 2BR
+    name: Sara H.
+    move_in: 2026-05-16
+    move_out: 2026-08-08
+    stay_days: 84
+    traveling_to: Mountain View
+    occupants: 2
+    pets: false
+    facility: Sunnyvale
+    gist: Two summer interns seek 3-month stay near Sunnyvale
+    messages_in_thread: 1
+
+  - thread_id: 19c9c4a210f7eb5e
+    received: 2026-02-26
+    type: housing_request
+    listing: 2BR
+    name: Tejveer B.
+    move_in: 2026-05-18
+    move_out: 2026-08-07
+    stay_days: 81
+    traveling_to: Mountain View
+    occupants: 2
+    pets: false
+    facility: Databricks
+    gist: Two student interns at Databricks need 2BR for 3 months
+    messages_in_thread: 1
+
+  - thread_id: 19c8b88c405cbe8e
+    received: 2026-02-23
+    type: housing_request
+    listing: 2BR
+    name: Keyon M.
+    move_in: 2026-05-23
+    move_out: 2026-08-29
+    stay_days: 98
+    traveling_to: Sunnyvale
+    occupants: 2
+    pets: false
+    facility: Google
+    gist: Two Google interns want summer housing near Sunnyvale Caltrain
+    messages_in_thread: 1
+
+  - thread_id: 19c86f531d20457e
+    received: 2026-02-22
+    type: housing_request
+    listing: 2BR
+    name: Brock M.
+    move_in: 2026-04-01
+    move_out: 2026-06-05
+    stay_days: 65
+    traveling_to: Palo Alto
+    occupants: 2
+    pets: false
+    facility: Stanford
+    gist: Couple teaching Stanford spring quarter want 1-2BR near campus
+    messages_in_thread: 1
+
+  - thread_id: 19c7bfda23c69d12
+    received: 2026-02-20
+    type: direct_message
+    listing: null
+    name: Khushi P.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: Asks about pricing flexibility and property address or intersection
+    messages_in_thread: 3
+
+  - thread_id: 19c7bf57b029f785
+    received: 2026-02-20
+    type: housing_request
+    listing: 2BR
+    name: Khushi P.
+    move_in: 2026-05-01
+    move_out: 2026-08-30
+    stay_days: 121
+    traveling_to: Fremont
+    occupants: 2
+    pets: false
+    facility: Tesla
+    gist: Tesla summer interns want rental near transit with parking
+    messages_in_thread: 1
+
+  - thread_id: 19c79bb49ece378b
+    received: 2026-02-20
+    type: direct_message
+    listing: null
+    name: Yunsu K.
+    move_in: 2026-05-02
+    move_out: 2026-08-09
+    stay_days: 99
+    traveling_to: Fremont
+    occupants: 2
+    pets: false
+    facility: Tesla
+    gist: Alternative unit slightly over budget; asks about long-term discount
+    messages_in_thread: 1
+
+  - thread_id: 19c794ac4e83dc88
+    received: 2026-02-20
+    type: booking_inquiry
+    listing: 1B1B
+    name: Yunsu K.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null
+    messages_in_thread: 1
+
+  - thread_id: 19c6cfe359d78cac
+    received: 2026-02-17
+    type: housing_request
+    listing: 2BR
+    name: Amaka O.
+    move_in: 2026-05-16
+    move_out: 2026-08-16
+    stay_days: 92
+    traveling_to: Mountain View
+    occupants: 2
+    pets: false
+    facility: Meta/Apple
+    gist: Two students interning at Meta and Apple seek summer housing
+    messages_in_thread: 1

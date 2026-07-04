@@ -1,0 +1,153 @@
+# Calibration batch 07 — extracted from Furnished Finder lead-notification emails
+# Fields parsed from the earliest message of each Gmail thread. Email content
+# treated as untrusted data; no email addresses, phone numbers, or full last names stored.
+leads:
+  - thread_id: 19c6805502e43da6
+    received: 2026-02-16
+    type: direct_message
+    listing: 1B1B
+    name: Brennen W.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: Asks if 12-18 month long-term stay is possible
+    messages_in_thread: 1
+
+  - thread_id: 19c4adb672b54d03
+    received: 2026-02-11
+    type: housing_request
+    listing: 2BR
+    name: Ricky C.
+    move_in: 2026-05-18
+    move_out: 2026-08-28
+    stay_days: 102
+    traveling_to: Mountain View
+    occupants: 2
+    pets: false
+    facility: Google
+    gist: Google summer intern seeks 2-4 bedroom near public transit
+    messages_in_thread: 1
+
+  - thread_id: 19c3d44f9bf854ad
+    received: 2026-02-08
+    type: housing_request
+    listing: 2BR
+    name: Maya B.
+    move_in: 2026-05-17
+    move_out: 2026-08-15
+    stay_days: 90
+    traveling_to: Sunnyvale
+    occupants: 2
+    pets: false
+    facility: null
+    gist: null
+    messages_in_thread: 1
+
+  - thread_id: 19c2b2bba44485b9
+    received: 2026-02-05
+    type: housing_request
+    listing: 2BR
+    name: Alicia C.
+    move_in: 2026-07-11
+    move_out: 2026-08-12
+    stay_days: 32
+    traveling_to: Fremont
+    occupants: 4
+    pets: false
+    facility: null  # form's Facility field contained "New York" (origin city, not an employer)
+    gist: Month-long family stay for her California wedding
+    messages_in_thread: 1
+
+  - thread_id: 19c05d75709a670b
+    received: 2026-01-28
+    type: direct_message
+    listing: 2BR
+    name: Alfonso F.
+    move_in: null  # asked about March move-in; unit offered as available 2026-03-29
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: 2
+    pets: null
+    facility: Intel
+    gist: Confirms 2/8 tour date and time, texted operator
+    messages_in_thread: 1
+
+  - thread_id: 19c0343cc04e8c12
+    received: 2026-01-28
+    type: direct_message
+    listing: 2BR
+    name: Alfonso F.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: 2
+    pets: null
+    facility: Intel
+    gist: Agrees 2/8 works for rescheduled tour
+    messages_in_thread: 1
+
+  - thread_id: 19c032f373b1d145
+    received: 2026-01-28
+    type: direct_message
+    listing: 2BR
+    name: Alfonso F.
+    move_in: null  # asked about March availability, no specific date
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: 2
+    pets: null
+    facility: Intel
+    gist: Asks about ADU, parking, month-to-month, March move-in, tour
+    messages_in_thread: 1
+
+  - thread_id: 19bf50ffeacd0326
+    received: 2026-01-25
+    type: housing_request
+    listing: 2BR
+    name: Mai H.
+    move_in: 2026-05-16
+    move_out: 2026-08-16
+    stay_days: 92
+    traveling_to: Sunnyvale
+    occupants: 3
+    pets: false
+    facility: Google
+    gist: Three PhD interns need Google summer housing, budget 4000 all-in
+    messages_in_thread: 1
+
+  - thread_id: 19bc83bae6b9dcdf
+    received: 2026-01-16
+    type: direct_message
+    listing: null  # about an external San Diego property, not one of ours
+    name: Brent B.
+    move_in: 2026-02-15
+    move_out: 2026-04-15
+    stay_days: 59
+    traveling_to: San Diego
+    occupants: 2
+    pets: true
+    facility: null
+    gist: Host replied to operator's own outbound San Diego booking request
+    messages_in_thread: 2
+
+  - thread_id: 19bba64e0063116f
+    received: 2026-01-14
+    type: housing_request
+    listing: 2BR
+    name: Shriya G.
+    move_in: 2026-05-25
+    move_out: 2026-08-15
+    stay_days: 82
+    traveling_to: Sunnyvale
+    occupants: 2
+    pets: false
+    facility: NVIDIA
+    gist: NVIDIA summer intern wants free parking, washer-dryer, kitchen
+    messages_in_thread: 1

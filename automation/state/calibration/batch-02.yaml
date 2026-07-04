@@ -1,0 +1,141 @@
+leads:
+  - thread_id: 19da0e48f60e4775
+    received: 2026-04-18
+    type: housing_request
+    listing: 1B1B
+    name: Dui L.
+    move_in: 2026-05-14
+    move_out: 2026-06-14
+    stay_days: 31
+    traveling_to: Milpitas
+    occupants: 2
+    pets: false
+    facility: Adobe
+    gist: Housing for visiting parents, described as clean and friendly
+    messages_in_thread: 1
+  - thread_id: 19d9733a86f418a3
+    received: 2026-04-16
+    type: housing_request
+    listing: 1B1B
+    name: Jin Soo I.
+    move_in: 2026-05-30
+    move_out: 2026-10-18
+    stay_days: 141
+    traveling_to: Menlo Park
+    occupants: 1
+    pets: false
+    facility: Meta
+    gist: Graduate student interning at Meta this summer seeking housing
+    messages_in_thread: 1
+  - thread_id: 19d902ff169d070f
+    received: 2026-04-15
+    type: booking_inquiry
+    listing: 1B1B
+    name: Elaine J.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null
+    messages_in_thread: 1
+  - thread_id: 19d888b36ca608eb
+    received: 2026-04-13
+    type: direct_message
+    listing: null
+    name: Ana D.
+    move_in: 2026-04-16
+    move_out: 2026-05-18
+    stay_days: 32
+    traveling_to: Fremont
+    occupants: 2
+    pets: false
+    facility: null
+    gist: Asks if calendar is current; dates somewhat flexible after decline
+    messages_in_thread: 1
+  - thread_id: 19d88852d93d4b4c
+    received: 2026-04-13
+    type: housing_request
+    listing: 1B1B
+    name: Katie S.
+    move_in: 2026-04-24
+    move_out: 2026-05-24
+    stay_days: 30
+    traveling_to: San Mateo
+    occupants: 2
+    pets: false
+    facility: Self-employed (startup)
+    gist: Startup founder couple exploring Bay Area; flexible dates, budget-conscious
+    messages_in_thread: 1
+  - thread_id: 19d8629d9c28a1f1
+    received: 2026-04-13
+    type: booking_inquiry
+    listing: 1B1B
+    name: Ana D.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null
+    messages_in_thread: 1
+  - thread_id: 19d732b7028fb300
+    received: 2026-04-09
+    type: housing_request
+    listing: 2BR
+    name: Claire R.
+    move_in: 2026-05-16
+    move_out: 2026-08-15
+    stay_days: 91
+    traveling_to: Mountain View
+    occupants: 2
+    pets: false
+    facility: LinkedIn
+    gist: UT Austin student and friend interning; need summer housing
+    messages_in_thread: 3
+  - thread_id: 19d6ee189ae254ae
+    received: 2026-04-08
+    type: direct_message
+    listing: 1B1B
+    name: Passiri B.
+    move_in: 2026-05-13
+    move_out: 2026-08-12
+    stay_days: 91
+    traveling_to: Mountain View
+    occupants: null
+    pets: null
+    facility: null
+    gist: Interning in Mountain View three months; wants to learn more
+    messages_in_thread: 1
+  - thread_id: 19d6a83dc9c72078
+    received: 2026-04-08
+    type: housing_request
+    listing: 2BR
+    name: Mendus C.
+    move_in: 2026-05-15
+    move_out: 2026-08-15
+    stay_days: 92
+    traveling_to: Sunnyvale
+    occupants: 2
+    pets: false
+    facility: Google
+    gist: null
+    messages_in_thread: 1
+  - thread_id: 19d6714fc006f107
+    received: 2026-04-07
+    type: housing_request
+    listing: 2BR
+    name: Ridwan A.
+    move_in: 2026-05-30
+    move_out: 2026-08-23
+    stay_days: 85
+    traveling_to: Menlo Park
+    occupants: 2
+    pets: false
+    facility: Meta
+    gist: Meta intern needs summer housing with wife and toddler
+    messages_in_thread: 1

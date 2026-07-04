@@ -1,0 +1,150 @@
+leads:
+  - thread_id: "1904e1087a761505"
+    received: 2024-06-25
+    type: direct_message
+    listing: null  # FF property 473811 "1B1B King Bed In-Unit Laundry Carport" (Fremont)
+    name: "Baris T."
+    move_in: 2024-07-13
+    move_out: null
+    stay_days: null
+    traveling_to: "Fremont"
+    occupants: 2
+    pets: false
+    facility: "Tesla"
+    gist: "Needs move-in July 13-14 after Airbnb checkout"
+    messages_in_thread: 1
+
+  - thread_id: "1904dc31c33a39e4"
+    received: 2024-06-25
+    type: direct_message
+    listing: null  # FF property 473811 "1B1B King Bed In-Unit Laundry Carport" (Fremont)
+    name: "Baris T."
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: "Fremont"
+    occupants: 2
+    pets: false
+    facility: "Tesla"
+    gist: "Relocating couple wants 1-2+ months, nonsmokers, no pets"
+    messages_in_thread: 1
+
+  - thread_id: "1904b9468b65e8db"
+    received: 2024-06-24
+    type: direct_message
+    listing: null  # FF property 473811 "1B1B King Bed In-Unit Laundry Carport" (Fremont)
+    name: "Julianne C."
+    move_in: 2024-07-06
+    move_out: 2024-10-08
+    stay_days: 94
+    traveling_to: null
+    occupants: null
+    pets: true
+    facility: "Lucile Packard"
+    gist: "Follow-up asking whether property is still available"
+    messages_in_thread: 1
+
+  - thread_id: "190461439d8ad347"
+    received: 2024-06-23
+    type: direct_message
+    listing: null  # FF property 473811 "1B1B King Bed In-Unit Laundry Carport" (Fremont)
+    name: "Sarah S."
+    move_in: 2024-07-23
+    move_out: 2024-12-03
+    stay_days: 133
+    traveling_to: "Santa Clara/San Jose area"
+    occupants: null
+    pets: null
+    facility: "Santa Clara Valley Medical Center"
+    gist: "Nurse seeks stay for small family, offers references"
+    messages_in_thread: 1
+
+  - thread_id: "19037aa3bbb891df"
+    received: 2024-06-20
+    type: direct_message
+    listing: null  # FF property 473811 "1B1B King Bed In-Unit Laundry Carport" (Fremont)
+    name: "Julianne C."
+    move_in: 2024-07-06
+    move_out: 2024-10-08
+    stay_days: 94
+    traveling_to: null
+    occupants: null
+    pets: true
+    facility: "Lucile Packard"
+    gist: "Seeks Jul 6-Oct 8 stay, traveling with ESA dog"
+    messages_in_thread: 1
+
+  - thread_id: "18f8e66779dbbbc7"
+    received: 2024-05-19
+    type: housing_request
+    listing: null  # request references "3B2B San Leandro House" property image/name
+    name: "Penn F."  # tenant shown as "Penn Family"
+    move_in: 2024-09-27
+    move_out: 2025-03-28
+    stay_days: 182
+    traveling_to: "Oakland"
+    occupants: 3
+    pets: false
+    facility: "Oakland"
+    gist: null
+    messages_in_thread: 1
+
+  - thread_id: "18ec6842bfc4c296"
+    received: 2024-04-10
+    type: direct_message
+    listing: null  # FF property 473811 "1B1B King Bed In-Unit Laundry Carport" (Fremont)
+    name: "Keely P."
+    move_in: 2024-06-14
+    move_out: 2024-09-08
+    stay_days: 86
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: "Stanford grad wants Jun 14-Sep 8 for summer internship"
+    messages_in_thread: 1
+
+  - thread_id: "18ec6776394036bd"
+    received: 2024-04-10
+    type: booking_inquiry
+    listing: null  # subject references FF listing "1B1B King Bed In-Unit Laundry Carport"
+    name: "Keely P."
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null  # generic booking-inquiry notification, no traveler message body
+    messages_in_thread: 1
+
+  - thread_id: "18e7eba62d184b9a"
+    received: 2024-03-27
+    type: direct_message
+    listing: null  # FF property 473811 "1B1B King Bed In-Unit Laundry Carport" (Fremont)
+    name: "Mary O."
+    move_in: null  # "preferably starting in June", no specific date
+    move_out: null
+    stay_days: null
+    traveling_to: "Milpitas"
+    occupants: null
+    pets: null
+    facility: null
+    gist: "Accepts video tour, asks about year-long rental"
+    messages_in_thread: 3
+
+  - thread_id: "18e7ea57433ae580"
+    received: 2024-03-27
+    type: direct_message
+    listing: null  # FF property 473811 "1B1B King Bed In-Unit Laundry Carport" (Fremont)
+    name: "Mary O."
+    move_in: null  # "preferably starting in June", no specific date
+    move_out: null
+    stay_days: null  # "at least six months to a year"
+    traveling_to: "Milpitas"
+    occupants: null
+    pets: null
+    facility: null
+    gist: "Seeks 6-12 month rental starting June, requests tour"
+    messages_in_thread: 1
