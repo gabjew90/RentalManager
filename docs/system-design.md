@@ -63,7 +63,17 @@ Median requested stay: **~91 days**. Search volume **May–July is near zero** (
 | 🟡 Yellow | **Aug 15 – Oct 10** · **Dec 15 – Jan 20** · **Feb 15 – Apr 16** | Sep 1 / mid-Sep / Oct arrivals (real but thin, and intern-vacated supply floods the market) · Jan movers (Jan 1–23 spread) · sparse Mar–Apr arrivals with the May wave as backstop beyond the gap target |
 | 🔴 Red | **May 24 – Aug 14** (worst: June–July) · **Oct 11 – Dec 14** · **Jan 21 – Feb 14** | Arrival deserts. A June/July opening faces an empty search market — the single most expensive end-date mistake for these units |
 
-**Canonical unit year** that end-date engineering steers toward — and the medians make it eerily clean: **intern stay ≈ May 16 → Aug 16** (both are the literal observed medians), then **Sep 1 → late-April/early-May anchor**, ending in the Green sweet spot to catch the next May wave with a 7–14 day turnover in between.
+**Canonical unit year: the three-tenancy template.** Each slot is backed by an observed arrival cohort, each handoff gets its cleaning week, and every stay is short enough to carry a term premium once pricing is in scope:
+
+| Slot | Dates (engineered) | Cohort (from lead data) | End-date handling |
+|---|---|---|---|
+| 1 · Summer interns | **~May 15 → Aug 16** | The dominant wave (tech interns/new grads, often pairs; observed medians are literally May 16 in / Aug 16 out) | Natural end is fine (mid-Aug = Yellow, feeds Sep arrivals) |
+| 2 · Fall cohort | **~Sep 1 → Dec 28–31** | Fall co-ops/research interns + Q4 relocations (~100–120d stays ending Dec 31/early Jan are the dominant Sep-starter mode) | Natural end is fine (Dec 28–31 + cleaning week feeds the observed Jan 1–23 arrivals) |
+| 3 · Winter cohort | **~Jan 5 → Apr 28 – May 8 (engineered)** | January healthcare contracts (the most uniform cohort: 13-week Jan→Mar stays, arriving Jan 1–23) | **The problem child:** natural end is mid/late March, ~5–7 weeks short of the May wave. Counter at signing to Apr 28 – May 8 (C1, prorated). If the tenant won't extend past March: insert a short April bridge — but counter the bridge's end to **≤ May 8** (observed April bridge-seekers propose May 17–24 ends, which would collide with the interns) |
+
+**Fallback (two-tenancy year):** interns May→Aug + one **Sep → late-April anchor** (also observed: Sep→Mar 28/31, Nov→Apr 4 stays). One fewer turnover, lower premium, no mid-winter re-fill risk. Use when slot 3's cohort doesn't materialize by mid-December — the fall tenant's extension offer (T−60 ≈ Nov 1) is the natural pivot point: offer them through late April at the same rate before betting on the winter cohort.
+
+Caveat: slots 2 and 3 rest on n≈9–15 cohorts (real but thin vs. the May/Aug signal). Slot 2 is safe to plan around; hold slot 3 loosely until another winter of inquiry data confirms it.
 
 **Lead-time note:** May-wave tenants search **1–3 months ahead** (Feb–Apr, peak March). For any opening targeted at the May wave, listings must be live and availability dates set by **early February** — that's ~T−90, well before the standard T−45 pre-marketing trigger. The runbook carries this as a seasonal override.
 

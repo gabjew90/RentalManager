@@ -25,6 +25,7 @@ For every parsed lead, compute and store:
 | Availability fit | requested window vs `units.yaml` tenancies + turnover buffers | fits / conflicts / fits-other-unit |
 | Start alignment | requested move-in vs current tenancy end | projected gap days + 🟢🟡🔴 vs the 7–14 target |
 | **End-date tier** | requested move-out vs demand windows (system-design §3) | GREEN / YELLOW / RED |
+| **Slot fit** | requested window vs the three-tenancy template (system-design §3): summer May 15–Aug 16 · fall Sep 1–Dec 31 · winter Jan 5–May 8 | which slot it fills, and whether its dates need a counter to fit the slot boundaries (esp. winter-cohort ends → Apr 28–May 8, April bridges → end ≤ May 8) |
 | Date counter | if end is YELLOW/RED or start misaligned | engineered alternative window (dates only, listed rate, prorated) — this goes *into the outreach draft* as an option, never as a condition |
 | Quality signals | occupants, pets vs policy, employer/facility, stay length, message tone | free-text note |
 | Recommendation | all of the above | `reply` / `reply_with_date_counter` / `offer_other_unit` / `decline_sub30` / `escalate_to_operator` |
