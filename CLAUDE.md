@@ -13,9 +13,11 @@ The system's core objective, which every document serves: **every gap between te
 - `README.md` — overview and doc index
 - `docs/system-design.md` — canonical reference: tracker field spec, demand calendar (end-date tiers), end-date engineering, channel mechanics, pricing, vacancy math, KPIs
 - `docs/runbook.md` — operator checklists: weekly routine, T−N triggers keyed to lease end, escalation ladder, signing checklist
-- `docs/templates.md` — message templates (IDs: P1, E1, C1, D1, I1, I2, F1, M1) referenced from the runbook
+- `docs/templates.md` — message templates (IDs: P1, E1, C1, D1, I1, I2, F1, F2, F3, A1, M1) referenced from the runbook and the automation workflows
 - `docs/automation.md` — LLM ops-manager architecture: Gmail as event bus, scheduled agent runs, autonomy tiers (auto / approve-to-send / human-only)
 - `automation/agent/ops-manager.md` — operating instructions followed by the scheduled ops-manager agent
+- `automation/workflows/` — per-task workflow specs the agent executes (currently: `ff-lead-followup.md`); a workflow file governs where it and ops-manager.md overlap
+- `automation/facts/units-facts.yaml` — the only property facts the agent may state to leads autonomously; anything not in it requires operator approval before replying
 - `automation/state/*.yaml` — agent-maintained state (units, inquiries, tenancies, approvals, meta). **Agent-owned:** humans edit only to seed data or flip `meta.yaml: autonomy`; every mutation is committed (git history is the audit log)
 
 ## Conventions

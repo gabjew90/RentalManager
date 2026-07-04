@@ -59,6 +59,27 @@ Use when their end date is Yellow/Red (design §4). Prefer lengthening the stay.
 
 Never let an Airbnb inquiry or request expire — decline with a friendly note if it's a clear no.
 
+## F2 · No-reply bump #1 (+48h after first touch)
+
+> Hi [NAME] — following up on [UNIT] for [THEIR START DATE]. Still looking? These dates tend to go quickly and I'd hate for you to miss it — once your contract's confirmed I can hold the dates 48 hours while you finalize. Happy to answer anything or do a quick video tour.
+
+## F3 · No-reply bump #2 (+6 days — final unsolicited touch)
+
+> Hi [NAME] — last note from me so I'm not cluttering your inbox! Two things that might help if you're still deciding:
+>
+> 1. You can see what staying with us is like from our [OTHER/SAME UNIT] reviews: [LINK].
+> 2. If your contract dates don't line up perfectly with what's listed, we prorate to the exact day — start and end whenever your assignment does.
+>
+> If the timing's just off for this assignment, tell me your next contract window and I'll reach out when we have matching dates. Good luck with the move either way!
+
+## A1 · Alternative offer (requested dates/unit unavailable)
+
+> Hi [NAME], thanks for reaching out! Our [REQUESTED UNIT] is booked for those dates — but our [OTHER CITY] unit is available from [DATE] and is the same setup and standard ([cross-reference reviews if offering the newer unit]). Details: [1–2 differentiators — commute anchors, parking].
+>
+> *(Variant — nothing fits:)* We're fully booked for that window. If you'd like, I'll keep your dates on file and reach out the moment something matching opens — and if your next contract brings you back to the Bay Area, we'd love to host you then.
+>
+> *(Variant — sub-30-day request:)* We're set up for stays of 30 days or longer (local regulations). If your assignment could work with a 30-day minimum — even with your actual occupancy a bit shorter — happy to talk through it.
+
 ## F1 · Stalled-lead re-contact (T−30)
 
 > Hi [NAME] — you asked about [UNIT] a few weeks back. The [DATE] opening is still available and I'm now confirming the schedule for that window. Still interested? Happy to hold it for 48 hours if you're ready to move forward.

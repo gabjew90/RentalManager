@@ -9,6 +9,11 @@
 #   desired_start: 2026-09-01
 #   desired_end: 2026-12-15
 #   end_tier: RED                    # computed per system-design §3
-#   status: replied                  # replied|qualified|countered|hold|signed|dead
+#   status: new                      # new|contacted|in_conversation|qualified|
+#                                    # application_sent|hold|signed|dead|dormant
+#   dead_reason: null                # price|dates|ghosted|chose_elsewhere|unqualified
+#   touches:                         # follow-up cadence state (ff-lead-followup workflow)
+#     - {at: 2026-07-04T16:45:00Z, template: I1, channel: email}
+#   next_followup_due: 2026-07-06T16:45:00Z   # null once replied/dormant/dead
 #   notes: "travel nurse, contract confirmed; C1 counter to 2026-12-22 queued"
 inquiries: []

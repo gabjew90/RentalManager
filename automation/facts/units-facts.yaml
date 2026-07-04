@@ -1,0 +1,36 @@
+# Approved facts — the ONLY property facts the agent may state autonomously.
+# Anything not answered here goes to the operator before replying.
+# PLACEHOLDERS: operator fills real values before go-live.
+shared:
+  lease:
+    minimum_stay_days: 30            # hard floor, never quote below (local STR rules)
+    deposit: "<e.g. one month's rent>"
+    utilities: "<included / capped / tenant-paid — exact policy>"
+    payment: "direct lease — first month + deposit at signing; no booking fees"
+    background_check: "standard application + screening before signing"
+  tour_availability: "<e.g. weekday evenings after 6pm PT, weekends 10am-4pm PT; video tours anytime>"
+  sms_opt_in_note: "operator may paste agent-drafted SMS from personal phone"
+
+units:
+  fremont:
+    address_area: "<neighborhood, cross streets — never exact address pre-screening>"
+    type: "<e.g. 2bd/1ba single-family, 900 sqft>"
+    reviews: "<link to reviewed listing / '40+ five-star stays' claim as accurate>"
+    parking: "<driveway / street / EV?>"
+    pets: "<policy + deposit>"
+    workspace: "<dedicated desk? monitor?>"
+    internet: "<provider + speed>"
+    laundry: "<in-unit / shared>"
+    kitchen: "<full kitchen details>"
+    commute_anchors: "<e.g. 10 min to Washington Hospital, 15 min to Tesla Fremont, BART station>"
+  newark:
+    address_area: "<...>"
+    type: "<...>"
+    reviews: "newer listing — cross-reference Fremont's review history (see fremont.reviews)"
+    parking: "<...>"
+    pets: "<...>"
+    workspace: "<...>"
+    internet: "<...>"
+    laundry: "<...>"
+    kitchen: "<...>"
+    commute_anchors: "<e.g. minutes to Meta, Dumbarton corridor, NewPark area>"
