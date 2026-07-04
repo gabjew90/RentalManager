@@ -1,0 +1,141 @@
+leads:
+  - thread_id: "19d04529f2c72602"
+    received: 2026-03-19
+    type: housing_request
+    listing: 2BR
+    name: "Jui-Hui C."
+    move_in: 2026-05-11
+    move_out: 2026-08-28
+    stay_days: 109
+    traveling_to: Sunnyvale
+    occupants: 4
+    pets: false
+    facility: Google
+    gist: "Princeton grad interning at Google; wife and two kids joining"
+    messages_in_thread: 1
+  - thread_id: "19cfdec4b1979f0c"
+    received: 2026-03-17
+    type: direct_message
+    listing: 1B1B
+    name: "Chantel M."
+    move_in: 2026-04-13
+    move_out: 2026-05-17
+    stay_days: 34
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: "Asks if home is available April 13 to May 17"
+    messages_in_thread: 1
+  - thread_id: "19cfd06702bd4b80"
+    received: 2026-03-17
+    type: booking_inquiry
+    listing: 1B1B
+    name: "Nita P."
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: "Generic booking-request notification; details only in dashboard"
+    messages_in_thread: 1
+  - thread_id: "19ce9ae8dbc168b9"
+    received: 2026-03-14
+    type: direct_message
+    listing: 1B1B
+    name: "Ahmad S."
+    move_in: 2026-04-12
+    move_out: 2026-05-31
+    stay_days: 49
+    traveling_to: Fremont
+    occupants: 3
+    pets: false
+    facility: null
+    gist: "Repeat inquirer thanks host after unit already booked"
+    messages_in_thread: 1
+  - thread_id: "19ce9142c4f71442"
+    received: 2026-03-13
+    type: booking_inquiry
+    listing: 1B1B
+    name: "Ahmad S."
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: "Generic booking-request notification; details only in dashboard"
+    messages_in_thread: 1
+  - thread_id: "19ce5b5cb3459356"
+    received: 2026-03-13
+    type: housing_request
+    listing: 2BR
+    name: "Ernest W."
+    move_in: 2026-05-01
+    move_out: 2026-08-31
+    stay_days: 122
+    traveling_to: Sunnyvale
+    occupants: 2
+    pets: false
+    facility: "Figure AI/Microsoft"
+    gist: "Two summer interns seeking 2b1b or 2b2b housing"
+    messages_in_thread: 1
+  - thread_id: "19ce3b52bb8127c5"
+    received: 2026-03-12
+    type: housing_request
+    listing: 2BR
+    name: "Jessica D."
+    move_in: 2026-04-04
+    move_out: 2026-09-12
+    stay_days: 161
+    traveling_to: Stanford
+    occupants: 3
+    pets: false
+    facility: Stanford
+    gist: "Travel nurse with toddler and nanny; six months at Stanford"
+    messages_in_thread: 1
+  - thread_id: "19cdf2a67c6d4ece"
+    received: 2026-03-11
+    type: housing_request
+    listing: 2BR
+    name: "Bowen Z."
+    move_in: 2026-05-01
+    move_out: 2026-08-31
+    stay_days: 122
+    traveling_to: "Mountain View"
+    occupants: 2
+    pets: false
+    facility: HeyGen
+    gist: null
+    messages_in_thread: 1
+  - thread_id: "19cddfca32cd922b"
+    received: 2026-03-11
+    type: housing_request
+    listing: 2BR
+    name: "Jaden P."
+    move_in: 2026-05-16
+    move_out: 2026-08-16
+    stay_days: 92
+    traveling_to: "Mountain View"
+    occupants: 1
+    pets: false
+    facility: "General Motors"
+    gist: "Masters student interning at GM as software engineer"
+    messages_in_thread: 1
+  - thread_id: "19cb46dca4e0e8c6"
+    received: 2026-03-03
+    type: housing_request
+    listing: 2BR
+    name: "Ella C."
+    move_in: 2026-05-16
+    move_out: 2026-08-15
+    stay_days: 91
+    traveling_to: Sunnyvale
+    occupants: 3
+    pets: false
+    facility: "Apple, Google, Tesla"
+    gist: "Three UC Berkeley interns want South Bay housing, three beds"
+    messages_in_thread: 2
