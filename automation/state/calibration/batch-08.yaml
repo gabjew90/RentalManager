@@ -1,0 +1,150 @@
+leads:
+  - thread_id: 19bb318ec7457dbd
+    received: 2026-01-12
+    type: housing_request
+    listing: null
+    name: "Chelle W."
+    move_in: 2026-02-01
+    move_out: 2027-03-31
+    stay_days: 423
+    traveling_to: "Palo Alto"
+    occupants: 2
+    pets: false
+    facility: "Palo Alto"
+    gist: "Private home for son and roommate, 6-12 months, no shared spaces"
+    messages_in_thread: 1
+
+  - thread_id: 19a62af6d9371f78
+    received: 2025-11-08
+    type: direct_message
+    listing: "1B1B"
+    name: "Ahmad A."
+    move_in: 2025-12-05
+    move_out: 2026-02-04
+    stay_days: 61
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: "Says site shows December 5 availability despite unit booked until April"
+    messages_in_thread: 2
+
+  - thread_id: 19a62af06eccd905
+    received: 2025-11-08
+    type: direct_message
+    listing: "1B1B"
+    name: "Abdul A."
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: "Says site shows availability after December 4; wants December booking"
+    messages_in_thread: 1
+
+  - thread_id: 19a62a9f1ce4aadb
+    received: 2025-11-08
+    type: booking_inquiry
+    listing: "1B1B"
+    name: "Abdul A."
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: "Wants December booking for few months, requests contact and viewing"
+    messages_in_thread: 1
+
+  - thread_id: 19a5d61d774725fa
+    received: 2025-11-07
+    type: direct_message
+    listing: "1B1B"
+    name: "Ahmad A."
+    move_in: 2025-12-05
+    move_out: 2026-02-04
+    stay_days: 61
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: "Wants apartment December 5 to February 4; asks required documents"
+    messages_in_thread: 1
+
+  - thread_id: 19a4baf915220114
+    received: 2025-11-03
+    type: direct_message
+    listing: "1B1B"
+    name: "Merissa T."
+    move_in: 2025-12-28
+    move_out: 2026-04-04
+    stay_days: 97
+    traveling_to: null
+    occupants: 2
+    pets: true
+    facility: null
+    gist: "Asks to be sent lease for 12/28 to 4/4 stay"
+    messages_in_thread: 4
+
+  - thread_id: 19a37b49b760195f
+    received: 2025-10-31
+    type: direct_message
+    listing: "1B1B"
+    name: "Merissa T."
+    move_in: 2025-12-28
+    move_out: 2026-04-04
+    stay_days: 97
+    traveling_to: null
+    occupants: 2
+    pets: true
+    facility: null
+    gist: "Husband stays off lease; asks landlord to send lease for review"
+    messages_in_thread: 2
+
+  - thread_id: 19a2d6c23e72fe64
+    received: 2025-10-29
+    type: direct_message
+    listing: "1B1B"
+    name: "Merissa T."
+    move_in: 2025-12-28
+    move_out: 2026-04-04
+    stay_days: 97
+    traveling_to: null
+    occupants: 2
+    pets: true
+    facility: null
+    gist: "Confirms 12/28 to 4/4; renewing ESA letter; husband on lease?"
+    messages_in_thread: 4
+
+  - thread_id: 19a2660f8e3118a3
+    received: 2025-10-27
+    type: direct_message
+    listing: "1B1B"
+    name: "Merissa T."
+    move_in: 2025-11-09
+    move_out: 2026-04-04
+    stay_days: 146
+    traveling_to: "Fremont"
+    occupants: 2
+    pets: true
+    facility: "Washington Hospital"
+    gist: "Following up; negotiating mid-December move-in through April 4"
+    messages_in_thread: 11
+
+  - thread_id: 19a2285b154dfe14
+    received: 2025-10-26
+    type: booking_inquiry
+    listing: "1B1B"
+    name: "Merissa T."
+    move_in: 2025-11-09
+    move_out: 2026-04-04
+    stay_days: 146
+    traveling_to: "Fremont"
+    occupants: 2
+    pets: true
+    facility: "Washington Hospital"
+    gist: "Booking request with husband and small ESA dog; hospital assignment"
+    messages_in_thread: 7

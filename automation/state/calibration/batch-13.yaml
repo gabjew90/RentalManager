@@ -1,0 +1,153 @@
+# Calibration batch 13 — Furnished Finder lead-notification extraction
+# Extracted from earliest message of each Gmail thread. Email content treated as
+# untrusted data; no email addresses, phone numbers, or full last names recorded.
+leads:
+  - thread_id: "193af6c217d0ca55"
+    received: 2024-12-10
+    type: housing_request
+    listing: null
+    name: "Anne G."
+    move_in: 2025-02-23
+    move_out: 2025-04-30
+    stay_days: 66
+    traveling_to: "San Mateo"
+    occupants: 1
+    pets: true  # pets field says No, but traveler notes state an older cat is coming
+    facility: "UCSF Mission Bay"
+    gist: "Night-shift nurse wants 2-3 months from late Feb, quiet cat"
+    messages_in_thread: 1
+
+  - thread_id: "1937011ff0c91ced"
+    received: 2024-11-28
+    type: housing_request
+    listing: null
+    name: "Yingsi Z."
+    move_in: 2024-12-16
+    move_out: 2025-09-01
+    stay_days: 259
+    traveling_to: "Piedmont"
+    occupants: 4
+    pets: false
+    facility: "Meta"
+    gist: null
+    messages_in_thread: 1
+
+  - thread_id: "193668502c87b100"
+    received: 2024-11-26
+    type: housing_request
+    listing: null
+    name: "KP"  # tenant field is agency placeholder "USACE"; signer gives initials only
+    move_in: 2024-12-01
+    move_out: 2025-05-31
+    stay_days: 181
+    traveling_to: "San Francisco"
+    occupants: 3
+    pets: false
+    facility: "Streamlined Stay Solutions (USACE project)"
+    gist: "Agency soliciting 9-month leases to house USACE project engineers"
+    messages_in_thread: 1
+
+  - thread_id: "19352f9f2ff7aa86"
+    received: 2024-11-22
+    type: housing_request
+    listing: null
+    name: "Michelle G."
+    move_in: 2024-11-22
+    move_out: 2024-12-22
+    stay_days: 30
+    traveling_to: "San Francisco"
+    occupants: 2
+    pets: true  # pets field says No, but notes state a 5lb dog
+    facility: "San Francisco"  # facility field as stated (city only)
+    gist: "Quiet clean non-smoker with small potty-trained 5lb dog"
+    messages_in_thread: 1
+
+  - thread_id: "1934cee65a175b63"
+    received: 2024-11-21
+    type: direct_message  # traveler inquiry about the Fremont 1B1B property
+    listing: "1B1B"  # property 473811 "1B1B King Bed In-Unit Laundry Carport", Fremont
+    name: "Zara D."
+    move_in: 2025-05-23
+    move_out: 2025-08-19
+    stay_days: 88
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: "Likes listing, asks availability May 23 through August 19"
+    messages_in_thread: 1
+
+  - thread_id: "1932a156a1bad905"
+    received: 2024-11-14
+    type: direct_message  # traveler inquiry about property 640987 (3B2B, San Leandro)
+    listing: null
+    name: "Thai"  # first name only given
+    move_in: null
+    move_out: null
+    stay_days: null  # "at least 3-6 months" stated, no exact dates
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: "Bay Area travel RN wants 3-6 months, $3200/month budget"
+    messages_in_thread: 1
+
+  - thread_id: "192b85b0818fae20"
+    received: 2024-10-23
+    type: housing_request
+    listing: null
+    name: "Matthew N."
+    move_in: 2024-10-23
+    move_out: 2025-01-08
+    stay_days: 77
+    traveling_to: "San Leandro"
+    occupants: 3
+    pets: false
+    facility: "Nunn Media"
+    gist: "Australian businessman here for son's basketball season, family joins December"
+    messages_in_thread: 1
+
+  - thread_id: "1929bad7241384d5"
+    received: 2024-10-17
+    type: direct_message  # housing-search specialist inquiry about property 640987
+    listing: null
+    name: "Destinee M."
+    move_in: null  # ASAP requested
+    move_out: null
+    stay_days: null  # 3-month lease with month-to-month extensions requested
+    traveling_to: null
+    occupants: 2
+    pets: null
+    facility: "Sedgwick Temporary Housing (State Farm insurance relocation)"
+    gist: "Insurance relocation needs ASAP move-in, 3-month lease plus extensions"
+    messages_in_thread: 1
+
+  - thread_id: "19267a4a77fbfe56"
+    received: 2024-10-07
+    type: housing_request
+    listing: null
+    name: "Sofia A."
+    move_in: 2024-10-26
+    move_out: 2025-03-31
+    stay_days: 156
+    traveling_to: "San Francisco"
+    occupants: 1
+    pets: false
+    facility: null
+    gist: "Wants four-plus months for business appointment"
+    messages_in_thread: 1
+
+  - thread_id: "19229c0ba55d4610"
+    received: 2024-09-25
+    type: housing_request
+    listing: null
+    name: "William D."  # agency contact; tenant field lists company "Nova Havens"
+    move_in: 2024-09-30
+    move_out: 2025-03-31
+    stay_days: 182
+    traveling_to: "San Francisco"
+    occupants: 2
+    pets: false
+    facility: "Nova Havens Temporary Housing"
+    gist: "Agency seeks ADA no-stairs 6-month lease for displaced family"
+    messages_in_thread: 1
