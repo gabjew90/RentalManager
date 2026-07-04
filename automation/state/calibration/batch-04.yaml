@@ -1,0 +1,141 @@
+leads:
+  - thread_id: 19d2201674012c6b
+    received: 2026-03-24
+    type: housing_request
+    listing: 2BR
+    name: Suhel K.
+    move_in: 2026-05-17
+    move_out: 2026-08-15
+    stay_days: 90
+    traveling_to: Cupertino
+    occupants: 2
+    pets: false
+    facility: Apple Park, Cupertino
+    gist: Apple summer intern with girlfriend seeks 1B1B/studio, $3500/month budget
+    messages_in_thread: 1
+  - thread_id: 19d1c566bf63e1e4
+    received: 2026-03-23
+    type: housing_request
+    listing: 1B1B
+    name: Yiyang C.
+    move_in: 2026-05-16
+    move_out: 2026-08-23
+    stay_days: 99
+    traveling_to: Fremont
+    occupants: 1
+    pets: false
+    facility: Meta Menlo Park
+    gist: UIUC PhD student seeking housing during Meta internship
+    messages_in_thread: 1
+  - thread_id: 19d18f9ce39505f6
+    received: 2026-03-23
+    type: housing_request
+    listing: 2BR
+    name: Advit R.
+    move_in: 2026-05-16
+    move_out: 2026-08-10
+    stay_days: 86
+    traveling_to: Mountain View
+    occupants: 2
+    pets: false
+    facility: Databricks Mountain View
+    gist: Databricks summer intern needs housing three months from May 18
+    messages_in_thread: 1
+  - thread_id: 19d18d9aff949068
+    received: 2026-03-23
+    type: housing_request
+    listing: 2BR
+    name: Emmanuel A.
+    move_in: 2026-05-11
+    move_out: 2026-08-11
+    stay_days: 92
+    traveling_to: Palo Alto
+    occupants: 2
+    pets: false
+    facility: Meta
+    gist: Quiet, respectful student seeking housing for Meta internship
+    messages_in_thread: 1
+  - thread_id: 19d16d070764a60f
+    received: 2026-03-22
+    type: housing_request
+    listing: 2BR
+    name: Bokai L.
+    move_in: 2026-05-26
+    move_out: 2026-12-31
+    stay_days: 219
+    traveling_to: Sunnyvale
+    occupants: 1
+    pets: false
+    facility: null  # facility field said only "Mountain View" (works in area)
+    gist: Local worker seeks transitional stay through year-end; wants tour first
+    messages_in_thread: 1
+  - thread_id: 19d1129877d4023a
+    received: 2026-03-21
+    type: housing_request
+    listing: 2BR
+    name: Vrishank B.
+    move_in: 2026-05-01
+    move_out: 2026-08-15
+    stay_days: 106
+    traveling_to: Sunnyvale
+    occupants: 2
+    pets: false
+    facility: Google
+    gist: Two Google interns/FT seek summer stay, roughly $4000/month budget
+    messages_in_thread: 1
+  - thread_id: 19d0dda6e69407d0
+    received: 2026-03-21
+    type: housing_request
+    listing: 2BR
+    name: Jodi T.
+    move_in: 2026-04-24
+    move_out: 2026-06-12
+    stay_days: 49
+    traveling_to: Palo Alto
+    occupants: 2
+    pets: false
+    facility: null  # facility field said "Retired couple"; stay is for Stanford Medical Center procedures
+    gist: Retired couple needs stay near Stanford Medical Center for procedures
+    messages_in_thread: 1
+  - thread_id: 19d0dc83b5ce7733
+    received: 2026-03-21
+    type: housing_request
+    listing: 2BR
+    name: Ayush B.
+    move_in: 2026-05-16
+    move_out: 2026-08-07
+    stay_days: 83
+    traveling_to: Mountain View
+    occupants: 2
+    pets: false
+    facility: Columbia University
+    gist: Columbia student interning in Mountain View seeks summer housing
+    messages_in_thread: 1
+  - thread_id: 19d083d5ef338405
+    received: 2026-03-19
+    type: housing_request
+    listing: 2BR
+    name: Yiyang C.
+    move_in: 2026-05-16
+    move_out: 2026-08-23
+    stay_days: 99
+    traveling_to: Menlo Park
+    occupants: 1
+    pets: false
+    facility: Meta
+    gist: Intern seeking housing near Meta; no pets, no smoking
+    messages_in_thread: 1
+  - thread_id: 19d0793fbb3a8db9
+    received: 2026-03-19
+    type: housing_request
+    listing: 2BR
+    name: Mohamed N.
+    move_in: 2026-03-29
+    move_out: 2026-04-29
+    stay_days: 31
+    traveling_to: Pleasanton
+    occupants: 3
+    pets: false
+    facility: Paradise Point Housing
+    gist: Insurance housing lead; family of three, one month near Pleasanton
+    messages_in_thread: 1

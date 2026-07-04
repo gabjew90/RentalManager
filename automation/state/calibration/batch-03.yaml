@@ -1,0 +1,141 @@
+leads:
+  - thread_id: 19d653d81a6f916f
+    received: 2026-04-07
+    type: housing_request
+    listing: 2BR
+    name: Elaine J.
+    move_in: 2026-05-24
+    move_out: 2026-08-23
+    stay_days: 91
+    traveling_to: Menlo Park
+    occupants: 1
+    pets: false
+    facility: Meta
+    gist: MIT rising senior interning at Meta seeks 3-month summer housing
+    messages_in_thread: 1
+  - thread_id: 19d64d8a09a8ad67
+    received: 2026-04-06
+    type: direct_message
+    listing: 1B1B
+    name: Xeniya G.
+    move_in: 2026-05-30
+    move_out: 2026-08-23
+    stay_days: 85
+    traveling_to: null
+    occupants: 3
+    pets: null
+    facility: null
+    gist: Family of three asks availability, parents visiting three weeks, tour
+    messages_in_thread: 1
+  - thread_id: 19d5be85853b83b8
+    received: 2026-04-05
+    type: housing_request
+    listing: 2BR
+    name: Joan D.
+    move_in: 2026-09-01
+    move_out: 2027-08-01
+    stay_days: 334
+    traveling_to: Palo Alto
+    occupants: 2
+    pets: false
+    facility: Stanford
+    gist: Stanford DCI Fellow couple wants year-long private unit near campus
+    messages_in_thread: 1
+  - thread_id: 19d51c916a2939d3
+    received: 2026-04-03
+    type: housing_request
+    listing: 2BR
+    name: Jui-Hui C.
+    move_in: 2026-05-11
+    move_out: 2026-08-28
+    stay_days: 109
+    traveling_to: Sunnyvale
+    occupants: 4
+    pets: false
+    facility: Google
+    gist: Princeton grad intern with wife and two kids, summer lease
+    messages_in_thread: 1
+  - thread_id: 19d45801fc4a1338
+    received: 2026-03-31
+    type: housing_request
+    listing: 2BR
+    name: Amogh K.
+    move_in: 2026-05-09
+    move_out: 2026-08-02
+    stay_days: 85
+    traveling_to: Palo Alto
+    occupants: 2
+    pets: false
+    facility: Meta
+    gist: null
+    messages_in_thread: 1
+  - thread_id: 19d4556eea4ee659
+    received: 2026-03-31
+    type: housing_request
+    listing: 2BR
+    name: Yifan W.
+    move_in: 2026-05-12
+    move_out: 2026-08-12
+    stay_days: 92
+    traveling_to: Sunnyvale
+    occupants: 2
+    pets: false
+    facility: General Motors
+    gist: Two CMU grad student interns, 3-month lease, $4500-5000 budget
+    messages_in_thread: 1
+  - thread_id: 19d4103753efe9b0
+    received: 2026-03-30
+    type: housing_request
+    listing: 2BR
+    name: Amogh K.
+    move_in: 2026-05-09
+    move_out: 2026-08-02
+    stay_days: 85
+    traveling_to: Mountain View
+    occupants: 2
+    pets: false
+    facility: Meta
+    gist: Incoming Meta engineer needs summer housing, willing to book same-day
+    messages_in_thread: 1
+  - thread_id: 19d3d78caebdd143
+    received: 2026-03-30
+    type: housing_request
+    listing: 2BR
+    name: Raymond J.
+    move_in: 2026-05-09
+    move_out: 2026-08-23
+    stay_days: 106
+    traveling_to: Sunnyvale
+    occupants: 2
+    pets: false
+    facility: Google Inc
+    gist: CMU student and roommate need housing for Google summer internship
+    messages_in_thread: 1
+  - thread_id: 19d2fbd34811ee5b
+    received: 2026-03-27
+    type: housing_request
+    listing: 2BR
+    name: Archana S.
+    move_in: 2026-05-26
+    move_out: 2026-08-29
+    stay_days: 95
+    traveling_to: Sunnyvale
+    occupants: 2
+    pets: false
+    facility: Dolby Research
+    gist: UMD PhD intern at Dolby, flexible group size, furnished only
+    messages_in_thread: 1
+  - thread_id: 19d2823a49cc60ca
+    received: 2026-03-26
+    type: housing_request
+    listing: 2BR
+    name: Dale D.
+    move_in: 2026-05-15
+    move_out: 2026-08-22
+    stay_days: 99
+    traveling_to: Sunnyvale
+    occupants: 3
+    pets: false
+    facility: Google
+    gist: Google summer intern staying with parents, no parties
+    messages_in_thread: 2

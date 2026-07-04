@@ -1,0 +1,141 @@
+leads:
+  - thread_id: 19f28a3d66bc6e85
+    received: 2026-07-03
+    type: housing_request
+    listing: 2BR
+    name: Huzayfa J.
+    move_in: 2026-09-01
+    move_out: 2026-12-31
+    stay_days: 121
+    traveling_to: Sunnyvale
+    occupants: 2
+    pets: false
+    facility: Tesla
+    gist: Two Tesla interns, non-smokers, just need a place to sleep
+    messages_in_thread: 1
+  - thread_id: 19df54a8ae26e3db
+    received: 2026-05-04
+    type: direct_message
+    listing: 1B1B
+    name: Sunhwa O.
+    move_in: 2026-06-13
+    move_out: 2026-09-19
+    stay_days: 98
+    traveling_to: San Jose
+    occupants: 2
+    pets: false
+    facility: null
+    gist: Remote worker and fiance relocating three months for his work
+    messages_in_thread: 1
+  - thread_id: 19de8dd9f50b6b6a
+    received: 2026-05-02
+    type: housing_request
+    listing: 1B1B
+    name: Collin T.
+    move_in: 2026-06-05
+    move_out: 2026-09-04
+    stay_days: 91
+    traveling_to: Palo Alto
+    occupants: 1
+    pets: false
+    facility: null
+    gist: Moving from Canada to start software engineer job in Palo Alto
+    messages_in_thread: 1
+  - thread_id: 19dd3f1a46c09478
+    received: 2026-04-28
+    type: booking_inquiry
+    listing: 1B1B
+    name: Ridwan A.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null
+    messages_in_thread: 1
+  - thread_id: 19dd10c37eaaf3c2
+    received: 2026-04-27
+    type: housing_request
+    listing: 1B1B
+    name: Arham K.
+    move_in: 2026-05-30
+    move_out: 2026-08-30
+    stay_days: 92
+    traveling_to: Menlo Park
+    occupants: 1
+    pets: false
+    facility: Meta
+    gist: PhD student interning at Meta seeks private one-bedroom unit
+    messages_in_thread: 1
+  - thread_id: 19dc7a9fd274d810
+    received: 2026-04-26
+    type: booking_inquiry
+    listing: 1B1B
+    name: Molly D.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null
+    messages_in_thread: 1
+  - thread_id: 19dc1966ae6c0041
+    received: 2026-04-24
+    type: booking_inquiry
+    listing: 1B1B
+    name: Andrew D.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null
+    messages_in_thread: 1
+  - thread_id: 19dbe209e88d1e4c
+    received: 2026-04-24
+    type: booking_inquiry
+    listing: 1B1B
+    name: Michael D.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null
+    messages_in_thread: 1
+  - thread_id: 19dae09fa47d535d
+    received: 2026-04-21
+    type: booking_inquiry
+    listing: 1B1B
+    name: Vaishali S.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null
+    messages_in_thread: 1
+  - thread_id: 19da2bc5f79cd1ea
+    received: 2026-04-18
+    type: housing_request
+    listing: 1B1B
+    name: Nitin M.
+    move_in: 2026-05-09
+    move_out: 2026-08-16
+    stay_days: 99
+    traveling_to: Menlo Park
+    occupants: 1
+    pets: false
+    facility: Snowflake
+    gist: PhD student interning in Menlo Park over the summer
+    messages_in_thread: 1
