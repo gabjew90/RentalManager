@@ -36,7 +36,7 @@ Tiers are constructed so **end date + 7–14 days (the turnover gap) lands on ob
 
 | Tier | End-date windows | Why |
 |---|---|---|
-| 🟢 GREEN | **Apr 17 – May 23** (sweet spot May 1–10) | End + 7–14d hits the May arrival wave directly. Early April ends are excluded: Apr arrivals barely exist, so an Apr 1 end idles ~4 weeks |
+| 🟢 GREEN | **Apr 17 – May 23** (sweet spot **Apr 28 – May 8**: ≥1 week of turnover before the dominant mid-May arrivals) | End + 7–14d hits the May arrival wave directly. Early April ends excluded (Apr arrivals barely exist → ~4 weeks idle); ends after ~May 9 only catch the late-May tail |
 | 🟡 YELLOW | **Aug 15 – Oct 10** · **Dec 15 – Jan 20** · **Feb 15 – Apr 16** | Sep/Oct arrivals real but thin + intern-vacated supply flood · Jan-mover cohort (Jan 1–23) · sparse spring arrivals, May wave beyond the gap target as backstop |
 | 🔴 RED | **May 24 – Aug 14** (worst: June–July) · **Oct 11 – Dec 14** · **Jan 21 – Feb 14** | Arrival deserts; June/July openings face a near-zero search market (the old assumed calendar called this window green!) |
 

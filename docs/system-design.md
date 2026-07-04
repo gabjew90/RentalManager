@@ -55,15 +55,17 @@ Date, channel, name, desired start/end, end-date tier of *their proposed end dat
 
 Median requested stay: **~91 days**. Search volume **May–July is near zero** (3/6/1 leads per calendar month across 2.5 years).
 
-**End-date tiers.** These windows embed the 7–14 day turnover gap by construction: a tier is judged by where **end date + 7–14 days** lands against observed *arrival* dates (day-level, from the calibration data), not just whether a demand season is nearby. Observed arrivals: May movers spread May 1–30 with median **May 16**; Sep movers cluster Sep 1 and mid/late Sep; Jan movers spread Jan 1–23; April arrivals are sparse.
+**End-date tiers.** The logic: marketing and signing happen while the unit is still occupied (pre-marketing starts at T−45 or earlier), so demand season alone doesn't constrain the end date — the **gap is purely physical turnover (cleaning/setup)**. A good end date therefore sits **7–14 days before the target arrival cluster**: at least ~a week for the clean, not much more than two so no revenue idles. Tiers are judged by where **end date + 7–14 days** lands against observed day-level arrivals: May arrivals cluster at **May 1**, **May 9–18** (the dominant mass, median May 16), and **May 23–30**; Sep movers cluster Sep 1 and mid/late Sep; Jan movers spread Jan 1–23; April arrivals are sparse.
 
 | Tier | End-date windows | End + 7–14 days lands on… |
 |---|---|---|
-| 🟢 Green | **Apr 17 – May 23** (sweet spot: **May 1–10**, targeting the dominant mid-May arrival cluster) | The May wave itself. An earlier "April" end is NOT green: an Apr 1 end targets Apr 8–15 arrivals, which barely exist — ~4 weeks of vacancy until May |
+| 🟢 Green | **Apr 17 – May 23** (sweet spot: **Apr 28 – May 8** — a week-plus of turnover before the dominant mid-May arrivals) | The May wave. Earlier ends are not green (an Apr 1 end targets Apr 8–15 arrivals, which barely exist → ~4 weeks idle); later ends (after ~May 9) can only catch the late-May tail — e.g. a May 16 end *misses* the median May 16 arrival entirely |
 | 🟡 Yellow | **Aug 15 – Oct 10** · **Dec 15 – Jan 20** · **Feb 15 – Apr 16** | Sep 1 / mid-Sep / Oct arrivals (real but thin, and intern-vacated supply floods the market) · Jan movers (Jan 1–23 spread) · sparse Mar–Apr arrivals with the May wave as backstop beyond the gap target |
 | 🔴 Red | **May 24 – Aug 14** (worst: June–July) · **Oct 11 – Dec 14** · **Jan 21 – Feb 14** | Arrival deserts. A June/July opening faces an empty search market — the single most expensive end-date mistake for these units |
 
 **Canonical unit year** that end-date engineering steers toward — and the medians make it eerily clean: **intern stay ≈ May 16 → Aug 16** (both are the literal observed medians), then **Sep 1 → late-April/early-May anchor**, ending in the Green sweet spot to catch the next May wave with a 7–14 day turnover in between.
+
+**Lead-time note:** May-wave tenants search **1–3 months ahead** (Feb–Apr, peak March). For any opening targeted at the May wave, listings must be live and availability dates set by **early February** — that's ~T−90, well before the standard T−45 pre-marketing trigger. The runbook carries this as a seasonal override.
 
 Calibration notes: lead-arrival volume is partly confounded by when the listings were open; the tiers lean on desired move-in/move-out months, which aren't. Recalibrate annually from the inquiry log (n grows with every lead the agent processes).
 

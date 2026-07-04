@@ -27,7 +27,7 @@ Monthly (add 30 min once a month): comp check on 3–5 similar listings per unit
 - [ ] Log `Extension status = offered`.
 
 ### T−45 · Departure confirmation + pre-marketing launch
-Runs only if extension declined or no answer by deadline. If T is Red-tier, run this whole block at T−60 instead.
+Runs only if extension declined or no answer by deadline. If T is Red-tier, run this whole block at T−60 instead. **Seasonal override:** if the opening targets the May intern wave (end date in the Green window), have listings live with correct availability dates by **early February** regardless of T−45 — May movers search Feb–Apr, 1–3 months ahead.
 - [ ] Written departure confirmation (template D1) — locks the date and starts the countdown cleanly.
 - [ ] Tracker: `Departure confirmed = Yes`.
 - [ ] **Both channels, same day, equal footing** (channel policy is opportunistic — design §5):
