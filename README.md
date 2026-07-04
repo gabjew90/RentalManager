@@ -11,6 +11,7 @@ Operations system for two furnished mid-term rental units (2–6 month stays, tr
 | [docs/system-design.md](docs/system-design.md) | The reference design: tenancy tracker spec, Bay Area demand calendar with green/red end-date windows, end-date engineering rules, channel mechanics, term-based pricing, vacancy math, KPIs. |
 | [docs/runbook.md](docs/runbook.md) | What to actually do: weekly 30-minute routine, T−75 → move-in trigger checklists, escalation ladder for at-risk gaps, signing checklist. |
 | [docs/templates.md](docs/templates.md) | Fill-in messages for every trigger: extension offers, departure confirmation, inquiry replies (both channels, with review cross-referencing for the newer unit), end-date counter-offers. |
+| [docs/automation.md](docs/automation.md) | The automated implementation: a scheduled LLM ops manager that ingests channel emails from Gmail, maintains state in `automation/state/`, drafts every action from the templates, and reduces the operator to one-tap approvals. |
 
 ## How it runs
 

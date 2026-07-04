@@ -1,0 +1,14 @@
+# Signed-tenancy log — agent-maintained, append-only. KPI source
+# (gap days per turnover, occupancy, extension acceptance, % Green end dates).
+# Example entry (delete once real entries exist):
+# - unit: fremont
+#   tenant: "Jane D."
+#   channel: furnished_finder
+#   lease_start: 2026-09-01
+#   lease_end: 2026-12-22
+#   rate_monthly: 3800
+#   term_tier: "2-3mo (+12%)"
+#   end_tier_at_signing: YELLOW
+#   was_extension: false
+#   gap_days_after: null             # filled when the following tenancy starts
+tenancies: []

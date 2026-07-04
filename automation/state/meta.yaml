@@ -1,0 +1,6 @@
+# Agent bookkeeping — maintained by the ops-manager agent, do not edit by hand
+# except `autonomy`, which the operator flips from `supervised` to `standing`
+# after the first satisfactory week.
+last_run: null            # ISO-8601 UTC of last completed run
+autonomy: supervised      # supervised = everything queues for approval | standing = Auto tier live
+processed_message_ids: [] # Gmail message-IDs already handled (idempotency)

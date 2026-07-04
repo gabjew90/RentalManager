@@ -14,10 +14,14 @@ The system's core objective, which every document serves: **every gap between te
 - `docs/system-design.md` — canonical reference: tracker field spec, demand calendar (end-date tiers), end-date engineering, channel mechanics, pricing, vacancy math, KPIs
 - `docs/runbook.md` — operator checklists: weekly routine, T−N triggers keyed to lease end, escalation ladder, signing checklist
 - `docs/templates.md` — message templates (IDs: P1, E1, C1, D1, I1, I2, F1, M1) referenced from the runbook
+- `docs/automation.md` — LLM ops-manager architecture: Gmail as event bus, scheduled agent runs, autonomy tiers (auto / approve-to-send / human-only)
+- `automation/agent/ops-manager.md` — operating instructions followed by the scheduled ops-manager agent
+- `automation/state/*.yaml` — agent-maintained state (units, inquiries, tenancies, approvals, meta). **Agent-owned:** humans edit only to seed data or flip `meta.yaml: autonomy`; every mutation is committed (git history is the audit log)
 
 ## Conventions
 
-- **Technology-neutral:** the system must be implementable with a spreadsheet and calendar reminders. Don't introduce tool- or vendor-specific instructions into the docs; if software is ever added to this repo, it implements the spec — the spec stays neutral.
+- **The spec stays technology-neutral; `automation/` implements it.** `docs/system-design.md`, `runbook.md`, and `templates.md` must remain implementable with a spreadsheet and calendar reminders — no tool-specific instructions there. The automation layer (`docs/automation.md`, `automation/`) is the LLM-driven implementation; it computes from the spec and must never carry its own copies of business numbers.
+- **Safety-critical automation rules** (never weaken without explicit operator direction): nothing binding is sent without an explicit operator approval; block-before-yes (no date confirmation while the opposite channel's block is unconfirmed); the 30-day stay floor; low parse confidence escalates to the digest rather than guessing.
 - **system-design.md is canonical.** Numbers that appear in multiple docs (trigger days like T−60/T−45, the 7–14 day gap target, term-premium percentages, end-date tier windows) are defined in system-design.md; runbook and templates must stay consistent with it. When changing any such number, update all three docs in the same commit.
 - **Template IDs** (E1, D1, …) are referenced from the runbook — renaming or removing one requires updating its runbook references.
 - **Fixed business context** (do not "improve" these away): Furnished Finder is lead-gen/direct-lease with no fees; Airbnb is commission-based with its own reviews/ranking; channel policy is opportunistic — date fit and net revenue pick the winning booking, not channel preference; **all stays have a 30-day floor** (Fremont/Newark treat shorter stays as STR — permit + TOT); one unit has reviews, the newer one doesn't (templates cross-reference the reviewed unit); assume no programmatic access to channel calendars — sync is manual, and the tracker is the single source of truth.

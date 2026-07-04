@@ -1,0 +1,14 @@
+# Inquiry log — agent-maintained, append-only. Feeds demand-window recalibration.
+# Example entry (delete once real entries exist):
+# - id: 2026-07-04-ff-jane-d
+#   received: 2026-07-04T16:20:00Z
+#   channel: furnished_finder        # furnished_finder | airbnb
+#   unit: fremont
+#   name: "Jane D."
+#   contact: "jane@example.com / 555-0100"
+#   desired_start: 2026-09-01
+#   desired_end: 2026-12-15
+#   end_tier: RED                    # computed per system-design §3
+#   status: replied                  # replied|qualified|countered|hold|signed|dead
+#   notes: "travel nurse, contract confirmed; C1 counter to 2026-12-22 queued"
+inquiries: []

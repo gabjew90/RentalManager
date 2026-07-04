@@ -1,0 +1,16 @@
+# Approval queue — agent-maintained. One entry per action requiring an operator
+# decision; decided entries are kept as the audit trail.
+# Example entry (delete once real entries exist):
+# - id: 2026-07-05-e1-fremont
+#   created: 2026-07-05T15:00:00Z
+#   type: extension_offer            # extension_offer|counter|departure_confirmation|
+#                                    # recontact|price_change|hold|calendar_block|airbnb_paste
+#   tier: approve_to_send            # auto|approve_to_send|human_only
+#   unit: fremont
+#   summary: "T-60 extension offer to Jane D., engineered end 2027-03-20, current rate flat"
+#   draft: |
+#     (full message text as sent for approval)
+#   default_if_no_reply: hold
+#   status: pending                  # pending|approved|edited|declined|expired|done
+#   decided: null                    # timestamp + verbatim operator reply once decided
+approvals: []
