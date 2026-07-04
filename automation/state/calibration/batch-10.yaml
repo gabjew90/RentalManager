@@ -1,0 +1,150 @@
+leads:
+  - thread_id: 1999bac2b2b16d18
+    received: 2025-09-30
+    type: direct_message
+    listing: 1B1B
+    name: Jami B.
+    move_in: 2025-10-15
+    move_out: null
+    stay_days: 90
+    traveling_to: Fremont
+    occupants: 2
+    pets: true
+    facility: null
+    gist: Couple moving for work; wants viewing; 3 months; two cats
+    messages_in_thread: 1
+
+  - thread_id: 1999ae0113d5c34b
+    received: 2025-09-30
+    type: direct_message
+    listing: 1B1B
+    name: Jami B.
+    move_in: 2025-10-15
+    move_out: null
+    stay_days: 90
+    traveling_to: Fremont
+    occupants: 2
+    pets: true
+    facility: null
+    gist: Couple moving for work; viewing Oct 8-9; 3 months; cats
+    messages_in_thread: 1
+
+  - thread_id: 198a6077ce25814c
+    received: 2025-08-14
+    type: direct_message
+    listing: null
+    name: Sarah W.
+    move_in: 2025-09-18
+    move_out: 2025-12-31
+    stay_days: 104
+    traveling_to: null
+    occupants: 1
+    pets: true
+    facility: null
+    gist: Ready to commit; sending deposit via Venmo, signing lease
+    messages_in_thread: 1
+
+  - thread_id: 198a1011e75f1b50
+    received: 2025-08-13
+    type: booking_inquiry
+    listing: null
+    name: Guohao S.
+    move_in: 2025-09-21
+    move_out: 2026-01-04
+    stay_days: 105
+    traveling_to: Fremont
+    occupants: 2
+    pets: false
+    facility: Meta
+    gist: Meta research intern withdrew after finding another apartment
+    messages_in_thread: 1
+
+  - thread_id: 19894c1fa77d8aae
+    received: 2025-08-10
+    type: booking_inquiry
+    listing: 1B1B
+    name: Guohao S.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null
+    messages_in_thread: 1
+
+  - thread_id: 1988fae911878539
+    received: 2025-08-09
+    type: booking_inquiry
+    listing: null
+    name: Sarah W.
+    move_in: 2025-09-21
+    move_out: 2025-12-31
+    stay_days: 101
+    traveling_to: Fremont
+    occupants: 1
+    pets: true
+    facility: null
+    gist: Traveling nurse practitioner with small dog, prefers Sept 7 move-in
+    messages_in_thread: 2
+
+  - thread_id: 1988adeea9aa650f
+    received: 2025-08-08
+    type: booking_inquiry
+    listing: 1B1B
+    name: Sarah G.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: null
+    messages_in_thread: 1
+
+  - thread_id: 195cebe1e19e85ab
+    received: 2025-03-25
+    type: direct_message
+    listing: 1B1B
+    name: Breanna S.
+    move_in: 2025-06-11
+    move_out: 2025-08-24
+    stay_days: 74
+    traveling_to: null
+    occupants: 1
+    pets: null
+    facility: NXP Semiconductors (via PorchLight Rental Service)
+    gist: Agency seeks summer intern housing; asks address and cleaning fee
+    messages_in_thread: 1
+
+  - thread_id: 195c9e37d70cb6a5
+    received: 2025-03-24
+    type: direct_message
+    listing: 1B1B
+    name: Breanna S.
+    move_in: 2025-06-11
+    move_out: 2025-08-24
+    stay_days: 74
+    traveling_to: null
+    occupants: 1
+    pets: null
+    facility: NXP Semiconductors (via PorchLight Rental Service)
+    gist: Agency seeks summer intern housing; asks address and cleaning fee
+    messages_in_thread: 1
+
+  - thread_id: 195c8c3caf6b5b11
+    received: 2025-03-24
+    type: direct_message
+    listing: null
+    name: Janelle C.
+    move_in: null
+    move_out: null
+    stay_days: null
+    traveling_to: null
+    occupants: null
+    pets: null
+    facility: null
+    gist: TransUnion screening identity issue resolved via manual authentication
+    messages_in_thread: 3
