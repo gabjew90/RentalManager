@@ -26,6 +26,8 @@ units:
                                        # while worksites are South Bay/Peninsula (cross-bay commute)
     listed_rate_monthly: 4200          # confirmed from FF property card (Jul 6 message)
     reviewed: CONFIRM
-    current_tenancy: CONFIRM           # occupied Sep 1? All pending leads hinge on this
-    next_tenancy: CONFIRM
-    notes: "Two live Sep-1 leads competing (Huzayfa, Sebastien). Listed $4,200/mo. Recurring signal: South-Bay workers flag the cross-bay distance — a listing/targeting issue worth noting."
+    availability:
+      free_from: 2026-09-01            # operator-confirmed 2026-07-07: 2BR is free for the Sep 1 window
+      status: OPEN                     # no signed next tenant yet
+    next_tenancy: null                 # two leads competing for this slot (Sebastien preferred, Huzayfa backup)
+    notes: "2BR free for Sep 1 (operator-confirmed). Listed $4,200/mo. Recurring signal: South-Bay workers flag the cross-bay distance — a listing/targeting issue worth noting."

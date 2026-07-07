@@ -21,7 +21,7 @@ inquiries:
     pets: false
     facility: "Tesla"
     scorecard:
-      availability_fit: UNCONFIRMED
+      availability_fit: CONFIRMED     # 2BR free Sep 1 (operator 2026-07-07)
       quality: "solid on paper, but COOLING — see objection"
       objection: "Jul 6 reply: 'this is a little far from palo alto' — location friction (2BR is cross-bay from his South Bay worksite)"
       recommendation: reply_address_objection
@@ -47,7 +47,7 @@ inquiries:
     pets: false
     facility: "Arista Networks (Mountain View)"
     scorecard:
-      availability_fit: UNCONFIRMED
+      availability_fit: CONFIRMED     # 2BR free Sep 1 (operator 2026-07-07)
       quality: "STRONG — 6mo stated, returning Bay Area engineer, clean/quiet, no pets, exact match. Best anchor lead to date"
       note: "Mountain View worksite = same cross-bay geography that Huzayfa objected to; hasn't raised it. Confirm he knows the location."
       recommendation: reply_with_date_counter
