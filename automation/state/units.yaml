@@ -21,9 +21,11 @@ units:
   - unit: unit_2br
     listing_names:
       furnished_finder: "Ultra Clean Two-Story 2BR 1.5BA, In-Unit WD, Carport, Netflix"
-    city: CONFIRM                      # lead emails reference Palo Alto / Menlo Park / Sunnyvale area
-    listed_rate_monthly: CONFIRM
+    ff_property_id: 951920             # from FF lead links
+    city: CONFIRM                      # East Bay — travelers repeatedly note it's "far from Palo Alto"
+                                       # while worksites are South Bay/Peninsula (cross-bay commute)
+    listed_rate_monthly: 4200          # confirmed from FF property card (Jul 6 message)
     reviewed: CONFIRM
-    current_tenancy: CONFIRM
+    current_tenancy: CONFIRM           # occupied Sep 1? All pending leads hinge on this
     next_tenancy: CONFIRM
-    notes: "Exact-matched to the live 2026-07-03 housing-request lead (Sep 1 – Dec 31). Availability unknown pending operator confirmation."
+    notes: "Two live Sep-1 leads competing (Huzayfa, Sebastien). Listed $4,200/mo. Recurring signal: South-Bay workers flag the cross-bay distance — a listing/targeting issue worth noting."

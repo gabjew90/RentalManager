@@ -5,23 +5,52 @@ inquiries:
   - id: 2026-07-03-ff-huzayfa-j
     received: 2026-07-03T15:40:53Z
     gmail_thread: 19f28a3d66bc6e85
+    ff_message_thread: 19f381ca45989cbe   # his Jul 6 reply came through FF messaging
     channel: furnished_finder
     type: housing_request
     unit: unit_2br                    # FF matched "Exact"
     name: "Huzayfa J."
+    role: "Software Engineer"          # per FF sender card (his msg said 'Tesla interns')
     contact: "hu***@gmail.com / 647-***-9867 (full in Gmail thread)"
     desired_start: 2026-09-01
     desired_end: 2026-12-31           # 121 days ≈ 4 months
-    end_tier: YELLOW                  # Dec 31 ∈ Dec 19–Jan 5 — catches Jan wave; no counter needed
+    end_tier: YELLOW                  # Dec 31 → feeds Jan cohort
+    slot_fit: "slot 2 (fall cohort) — natural Dec 31 end"
     date_counter: null
     occupants: 2
     pets: false
-    facility: "Tesla (interns)"
+    facility: "Tesla"
     scorecard:
-      availability_fit: UNCONFIRMED   # units.yaml occupancy = CONFIRM pending operator
-      start_alignment: unknown        # depends on current tenancy end
-      quality: "2 interns, no pets, no smoking/drinking, 4-month stay, exact listing match — solid lead"
-      recommendation: reply           # draft created; non-committal on availability until operator confirms
-    status: new                       # → contacted once operator sends the Gmail draft
-    outreach_draft: gmail_draft       # created 2026-07-04, in operator's Drafts folder
-    notes: "Lead ~24h old at first processing; competitors likely responded already — send soon."
+      availability_fit: UNCONFIRMED
+      quality: "solid on paper, but COOLING — see objection"
+      objection: "Jul 6 reply: 'this is a little far from palo alto' — location friction (2BR is cross-bay from his South Bay worksite)"
+      recommendation: reply_address_objection
+    status: in_conversation           # replied to us; objection open
+    outreach_draft: gmail_draft_v2    # objection-handling reply drafted 2026-07-07
+    notes: "First draft was created Jul 4; unclear if operator sent it. His Jul 6 msg is terse/cooling. Backup to Sebastien for the 2BR."
+
+  - id: 2026-07-07-ff-sebastien-p
+    received: 2026-07-07T17:09:49Z
+    gmail_thread: 19f3d8eb52ec9b30
+    channel: furnished_finder
+    type: housing_request
+    unit: unit_2br                    # FF matched "Exact"
+    name: "Sebastien P."
+    role: "Hardware Engineer"
+    contact: "NONE in lead email — reply via FF platform (Reply Now / Manage Leads)"
+    desired_start: 2026-09-01
+    desired_end: 2027-02-28           # 180 days = 6 months
+    end_tier: YELLOW                  # Feb 28 ∈ Feb 15–Apr 16
+    slot_fit: "slots 2+3 combined (Sep→Feb). COUNTER to end Apr 28–May 8 → ~8mo anchor landing Green, flows into May interns"
+    date_counter: 2027-04-30          # dates-only, listed rate, prorated
+    occupants: 2
+    pets: false
+    facility: "Arista Networks (Mountain View)"
+    scorecard:
+      availability_fit: UNCONFIRMED
+      quality: "STRONG — 6mo stated, returning Bay Area engineer, clean/quiet, no pets, exact match. Best anchor lead to date"
+      note: "Mountain View worksite = same cross-bay geography that Huzayfa objected to; hasn't raised it. Confirm he knows the location."
+      recommendation: reply_with_date_counter
+    status: new
+    outreach_draft: ff_paste          # paste-ready text in digest (no email to draft to)
+    notes: "Collides with Huzayfa on 2BR + Sep 1. Preferred: longer, engineerable to Green anchor. ~8mo × listed 4200 if extended."
