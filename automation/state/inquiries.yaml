@@ -52,5 +52,5 @@ inquiries:
       note: "Mountain View worksite = same cross-bay geography that Huzayfa objected to; hasn't raised it. Confirm he knows the location."
       recommendation: reply_with_date_counter
     status: new
-    outreach_draft: ff_paste          # paste-ready text in digest (no email to draft to)
+    outreach_draft: ff_paste          # in Gmail Drafts as a self-note clipboard; PASTE into FF (no email on file)
     notes: "Collides with Huzayfa on 2BR + Sep 1. Preferred: longer, engineerable to Green anchor. ~8mo × listed 4200 if extended."
