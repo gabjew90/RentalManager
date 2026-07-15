@@ -16,7 +16,15 @@ units:
     reviewed: CONFIRM                  # which unit carries the review history?
     current_tenancy: CONFIRM           # occupied? tenant? lease start/end?
     next_tenancy: CONFIRM
-    notes: "Heavy FF inquiry traffic Apr–early May 2026, then quiet — possibly booked in May. No booking-confirmation email found; occupancy unknown."
+    economics:                         # operator-provided 2026-07-07
+      fixed_monthly: 3325              # mortgage 1900 (incl. principal) + HOA 750 + tax 600 + insurance 75
+      occupied_variable_monthly: 325   # electricity 200 + cleaning 125 (cleaning often passed to guest as a fee)
+      internet: covered
+      cash_breakeven_note: "FF $3,800 needs ~96% occupancy to break even on cash; ~break-even economically at 75% if ~$700 of the mortgage is principal"
+      principal_portion: CONFIRM       # P/I split of the $1,900 — sets cash vs economic break-even
+      airbnb_1mo_min_floor: 4900       # 75% occupancy, split-fee (÷0.97)
+      airbnb_1mo_min_target: 5500      # ~$175–195/night; profitable above ~63% occupancy
+    notes: "Heavy FF inquiry traffic Apr–early May 2026, then quiet — possibly booked in May. No booking-confirmation email found; occupancy unknown. Cost stack suggests 1B1B is Airbnb-forward (short MTR stays) rather than a thin FF anchor."
 
   - unit: unit_2br
     listing_names:
