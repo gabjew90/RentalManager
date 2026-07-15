@@ -54,5 +54,19 @@ units:
     availability:
       free_from: 2026-09-01            # operator-confirmed 2026-07-07: 2BR is free for the Sep 1 window
       status: OPEN                     # no signed next tenant yet
+    economics:                         # operator-provided 2026-07-07
+      fixed_alwayson_monthly: 3775     # mortgage+HOA+insurance+tax 3700 + internet 75 (runs during gaps)
+      electricity_monthly: 125         # occupied only
+      cleaning_per_booking: 200        # per turnover
+      principal_portion: CONFIRM       # P/I split not yet provided — sets cash vs economic break-even
+      base_occupied_monthly: 3900      # fixed always-on + electricity
+      all_in_12mo_monthly: 3917        # ~$47,000/yr, no gaps, 1 cleaning
+      overhead_per_stay: 1071          # 1-week gap carry (~871) + cleaning (200)
+      breakeven_by_term:               # base 3900 + overhead/N months
+        1mo: 4970
+        3mo: 4260
+        6mo: 4080
+        12mo: 3920
+      note: "FF listed $4,200 is priced for long stays: covers 12mo comfortably (~$280/mo margin) but only ~break-even at 3mo and thin (~$120/mo) at 6mo. Add margin above break-even per term."
     next_tenancy: null                 # two leads competing for this slot (Sebastien preferred, Huzayfa backup)
     notes: "2BR free for Sep 1 (operator-confirmed). Listed $4,200/mo. Recurring signal: South-Bay workers flag the cross-bay distance — a listing/targeting issue worth noting."
