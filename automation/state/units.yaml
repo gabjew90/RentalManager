@@ -16,14 +16,22 @@ units:
     reviewed: CONFIRM                  # which unit carries the review history?
     current_tenancy: CONFIRM           # occupied? tenant? lease start/end?
     next_tenancy: CONFIRM
-    economics:                         # operator-provided 2026-07-07
-      fixed_monthly: 3325              # mortgage 1900 (incl. principal) + HOA 750 + tax 600 + insurance 75
+    economics:                         # from mortgage statement 2026-07-06 + operator inputs
+      mortgage_total: 1861             # RoundPoint: P ~831 (equity) + I ~1020 + escrow ~10; rate 3.375%
+      mortgage_principal: 831          # EQUITY — excluded from economic cost
+      mortgage_interest_escrow: 1030   # real expense portion of the mortgage
+      hoa: 750
+      property_tax: 600                # paid separately (escrow is only ~$10/mo)
+      insurance: 75
       occupied_variable_monthly: 325   # electricity 200 + cleaning 125 (cleaning often passed to guest as a fee)
       internet: covered
-      cash_breakeven_note: "FF $3,800 needs ~96% occupancy to break even on cash; ~break-even economically at 75% if ~$700 of the mortgage is principal"
-      principal_portion: CONFIRM       # P/I split of the $1,900 — sets cash vs economic break-even
-      airbnb_1mo_min_floor: 4900       # 75% occupancy, split-fee (÷0.97)
-      airbnb_1mo_min_target: 5500      # ~$175–195/night; profitable above ~63% occupancy
+      fixed_cash_monthly: 3286         # 1861 + 750 + 600 + 75
+      fixed_economic_monthly: 2455     # drops the 831 principal (equity)
+      breakeven_75pct_cash: 4700       # FF $3,800 ~$900/mo cash-short at 75% occ
+      breakeven_75pct_economic: 3600   # FF $3,800 ~$200/mo ahead economically + builds ~$10k/yr equity
+      ff_cashflow_breakeven_occupancy: "~95%"
+      airbnb_1mo_min_floor: 4700       # 75% occupancy, split-fee
+      airbnb_1mo_min_target: 5500      # ~$175–195/night; cash-positive above ~63% occupancy
     notes: "Heavy FF inquiry traffic Apr–early May 2026, then quiet — possibly booked in May. No booking-confirmation email found; occupancy unknown. Cost stack suggests 1B1B is Airbnb-forward (short MTR stays) rather than a thin FF anchor."
 
   - unit: unit_2br
