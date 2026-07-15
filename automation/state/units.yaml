@@ -64,6 +64,7 @@ units:
       overhead_per_stay: 1071          # 1-week gap carry (~871) + cleaning (200)
       breakeven_by_term:               # base 3900 + overhead/N months
         1mo: 4970
+        2mo: 4440
         3mo: 4260
         6mo: 4080
         12mo: 3920
