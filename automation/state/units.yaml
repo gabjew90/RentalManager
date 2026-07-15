@@ -23,7 +23,10 @@ units:
       hoa: 750
       property_tax: 600                # paid separately (escrow is only ~$10/mo)
       insurance: 75
-      occupied_variable_monthly: 225   # electricity 100 + cleaning 125 (cleaning often passed to guest as a fee)
+      electricity_monthly: 100         # when operator covers it
+      cleaning_per_booking: 125        # PER TURNOVER, not monthly — scales with # of bookings.
+                                       #   1-mo stays ≈ 1 clean/mo; 12-mo booking ≈ 1 clean/yr (~$10/mo).
+                                       #   On Airbnb usually passed to guest as a cleaning fee (≈ wash).
       internet: covered
       fixed_cash_monthly: 3286         # 1861 + 750 + 600 + 75
       fixed_economic_monthly: 2455     # drops the 831 principal (equity)
