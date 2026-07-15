@@ -23,14 +23,14 @@ units:
       hoa: 750
       property_tax: 600                # paid separately (escrow is only ~$10/mo)
       insurance: 75
-      occupied_variable_monthly: 325   # electricity 200 + cleaning 125 (cleaning often passed to guest as a fee)
+      occupied_variable_monthly: 225   # electricity 100 + cleaning 125 (cleaning often passed to guest as a fee)
       internet: covered
       fixed_cash_monthly: 3286         # 1861 + 750 + 600 + 75
       fixed_economic_monthly: 2455     # drops the 831 principal (equity)
-      breakeven_75pct_cash: 4700       # FF $3,800 ~$900/mo cash-short at 75% occ
-      breakeven_75pct_economic: 3600   # FF $3,800 ~$200/mo ahead economically + builds ~$10k/yr equity
-      ff_cashflow_breakeven_occupancy: "~95%"
-      airbnb_1mo_min_floor: 4700       # 75% occupancy, split-fee
+      breakeven_75pct_cash: 4600       # FF $3,800 ~$800/mo cash-short at 75% occ
+      breakeven_75pct_economic: 3500   # FF $3,800 ~$300/mo ahead economically + builds ~$10k/yr equity
+      ff_cashflow_breakeven_occupancy: "~92%"
+      airbnb_1mo_min_floor: 4750       # 75% occupancy, split-fee (÷0.97)
       airbnb_1mo_min_target: 5500      # ~$175–195/night; cash-positive above ~63% occupancy
     notes: "Heavy FF inquiry traffic Apr–early May 2026, then quiet — possibly booked in May. No booking-confirmation email found; occupancy unknown. Cost stack suggests 1B1B is Airbnb-forward (short MTR stays) rather than a thin FF anchor."
 
