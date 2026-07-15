@@ -32,6 +32,12 @@ units:
       ff_cashflow_breakeven_occupancy: "~92%"
       airbnb_1mo_min_floor: 4750       # 75% occupancy, split-fee (÷0.97)
       airbnb_1mo_min_target: 5500      # ~$175–195/night; cash-positive above ~63% occupancy
+      annual_12mo:                     # 100% occupancy, direct lease (no platform fee), 1 clean/yr
+        cash_breakeven: 3400
+        economic_breakeven: 2565
+        floor: 3600                    # below this, giving away the summer-intern premium for free
+        target: 4000                   # band 3900–4200; ~$600/mo cash + ~$831 equity at $4,000
+        note: "At ~$3,900 the annual matches a 75%-occupied Airbnb year with zero vacancy/turnover risk. Opportunity cost = forgoing May–Aug intern premium."
     notes: "Heavy FF inquiry traffic Apr–early May 2026, then quiet — possibly booked in May. No booking-confirmation email found; occupancy unknown. Cost stack suggests 1B1B is Airbnb-forward (short MTR stays) rather than a thin FF anchor."
 
   - unit: unit_2br
