@@ -22,7 +22,7 @@ Recommendation: pursue Sebastien to a decision; Affan strong backup; treat Huzay
 
 ## Owed / not yet built
 - **Pricing worksheet** — requested/offered, NOT built. Would turn the per-unit cost stacks + per-stay overhead (gap + cleaning) + occupancy + fee model + term into a reusable calculator. Method: cost/occupied-month = base(fixed+elec) + overhead/N; overhead = 1-week-gap carry (fixed × 12/52) + cleaning/booking. Results already in each unit's `economics` block.
-- **FF network access** — STILL blocked (re-checked 2026-07-18: proxy CONNECT to furnishedfinder.com → 403; egress policy fixed at container start). Public listing URL confirmed by operator: furnishedfinder.com/property/951920_1 (2BR). To verify listing text / finish `units-facts.yaml: fremont`, either allowlist furnishedfinder.com in the environment's network policy or paste the listing pages into chat.
+- **FF listing fetch — dead end, don't retry** (2026-07-18). Operator allowlisted furnishedfinder.com (egress now OK, and it applied to the running session), but Cloudflare serves an interactive captcha ("Attention Required") to this cloud IP range — unreachable for curl, WebFetch, and real headless Chromium alike. Not fixable from this environment; to verify listing text (2BR 951920, and the 1B1B for `units-facts.yaml: fremont`), the operator must paste the listing pages/screenshots into chat. Chromium-through-proxy quirk for future reference: gateway resets Chrome's TLS 1.3 handshake; add `--ssl-version-max=tls1.2`.
 
 ## Infra notes
 - Gmail connector works (read + create draft). Housing-request leads sometimes withhold contact → reply via FF platform; direct-message/booking leads carry a usable email.
