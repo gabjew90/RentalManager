@@ -9,7 +9,7 @@ Branch: `claude/claude-md-docs-wmsn2b` · Mode: **supervised** · Scope: **MVP**
 ## Active leads — 3-way race for the 2BR fall slot (only one wins)
 All drafts sit in the operator's **Gmail Drafts** (not in the repo).
 1. **Sebastien P.** (Jul 7) — Sep 1→Feb 28 (6mo). Preferred: firmest commitment; engineer end to ~Apr 30 = Sep→May anchor. Draft = FF paste ("[RM] PASTE INTO FF…") — no email on file, must paste into FF.
-2. **Affan T.** (Jul 18) — Aug 17→Dec 31 then m2m. Local (works in Fremont, unit in adjacent Newark) = best fit, m2m = anchor potential. Aug 17 works (free Aug 10). Draft v3 in Gmail (subject "…furnished 2BR in Newark, minutes to Fremont").
+2. **Affan T.** (Jul 18) — Aug 17→Dec 31 then m2m. Local (works in Fremont, unit in adjacent Newark) = best fit, m2m = anchor potential. Aug 17 works (free Aug 10). Draft v3 in Gmail (subject "…furnished 2BR in Newark, minutes to Fremont"). **SMS paste also in Drafts** ("[RM] SMS PASTE v2 — …310-728-5575", 278 chars; discard the v1 SMS note, it ran long) — send with/after the email.
 3. **Huzayfa J.** (Jul 3) — Sep 1→Dec 31. Cooling ("far from palo alto"). Now third. Objection-reply draft in Gmail (needs commute-time blank filled).
 
 Recommendation: pursue Sebastien to a decision; Affan strong backup; treat Huzayfa as third. Block-before-yes — don't promise the unit to two parties.
