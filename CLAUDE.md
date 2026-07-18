@@ -19,6 +19,7 @@ The system's core objective, which every document serves: **every gap between te
 - `automation/workflows/` — per-task workflow specs the agent executes (currently: `ff-lead-followup.md`); a workflow file governs where it and ops-manager.md overlap
 - `automation/facts/units-facts.yaml` — the only property facts the agent may state to leads autonomously; anything not in it requires operator approval before replying
 - `automation/state/*.yaml` — agent-maintained state (units, inquiries, tenancies, approvals, meta). **Agent-owned:** humans edit only to seed data or flip `meta.yaml: autonomy`; every mutation is committed (git history is the audit log)
+- `automation/state/handoff.md` — **read first in a new session**: live status, active leads, pending decisions, and owed work
 
 ## Conventions
 
