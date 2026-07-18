@@ -54,3 +54,27 @@ inquiries:
     status: new
     outreach_draft: ff_paste          # in Gmail Drafts as a self-note clipboard; PASTE into FF (no email on file)
     notes: "Collides with Huzayfa on 2BR + Sep 1. Preferred: longer, engineerable to Green anchor. ~8mo × listed 4200 if extended."
+
+  - id: 2026-07-18-ff-affan-t
+    received: 2026-07-18T13:38:24Z
+    gmail_thread: 19f7573161e52c27
+    channel: furnished_finder
+    type: housing_request
+    unit: unit_2br                    # FF matched "Exact"
+    name: "Affan T."
+    contact: "aff***@yahoo.com / 310-***-5575 (full in Gmail thread)"
+    desired_start: 2026-08-17         # unit free from Sep 1 — 2-week gap; asked about flexibility
+    desired_end: 2026-12-31           # 136 days ≈ 4.5 mo, THEN wants month-to-month
+    end_tier: YELLOW                  # Dec 31 → feeds Jan; m2m extension could carry to spring anchor
+    slot_fit: "slot 2 (fall) with built-in extension intent → potential Sep→spring anchor via m2m"
+    occupants: 1
+    pets: false
+    facility: "Fremont (works in Fremont)"
+    scorecard:
+      availability_fit: PARTIAL       # free Sep 1, not Aug 17; qualify on date flexibility
+      quality: "STRONG — LOCAL to Fremont (no cross-bay objection, unlike Huzayfa), single/no pets, explicitly wants m2m extension = anchor potential"
+      location_note: "Traveling to Fremont + Exact match ⇒ 2BR is in/near Fremont. Local leads are the right target; South-Bay leads are the friction."
+      recommendation: reply_qualify
+    status: new
+    outreach_draft: gmail_draft       # created 2026-07-18, in operator's Drafts
+    notes: "3-WAY competition for 2BR fall slot: Sebastien (6mo firm, best commitment), Affan (4.5mo + m2m, best location fit), Huzayfa (cooling, weakest). Only one can win."

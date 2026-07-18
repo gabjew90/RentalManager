@@ -47,8 +47,8 @@ units:
     listing_names:
       furnished_finder: "Ultra Clean Two-Story 2BR 1.5BA, In-Unit WD, Carport, Netflix"
     ff_property_id: 951920             # from FF lead links
-    city: CONFIRM                      # East Bay — travelers repeatedly note it's "far from Palo Alto"
-                                       # while worksites are South Bay/Peninsula (cross-bay commute)
+    city: "Fremont, CA (likely)"       # Jul 18 lead traveling TO Fremont + Exact match ⇒ unit is in/near
+                                       # Fremont. South-Bay leads find it "far"; Fremont-local leads fit.
     listed_rate_monthly: 4200          # confirmed from FF property card (Jul 6 message)
     reviewed: CONFIRM
     availability:
