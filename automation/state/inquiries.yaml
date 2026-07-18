@@ -77,5 +77,5 @@ inquiries:
       recommendation: reply_light     # friendly nudge to view the listing; don't over-qualify a lead
     status: new
     outreach_draft: gmail_draft_v4    # v3 + real listing URL (furnishedfinder.com/property/951920_1) filled in — READY TO SEND; discard v1–v3
-    sms_paste: gmail_selfnote_v2      # 278-char SMS paste in Drafts ("[RM] SMS PASTE v2 — …310-728-5575"); v1 ran 305 chars, discard. Created 2026-07-18
+    sms_paste: gmail_selfnote_v3      # 296-char plain/direct SMS in Drafts ("[RM] SMS PASTE v3 — …310-728-5575"); discard v1/v2 (v2 too salesy per operator). 2026-07-18
     notes: "Lead (broadcast), friendly touch. Aug 17 start works (free Aug 10). Real listing read from operator screenshots; facts in units-facts.yaml. 3-way interest in 2BR fall slot: Sebastien (6mo firm), Affan (local + m2m anchor potential), Huzayfa (cooling)."
