@@ -51,7 +51,7 @@ units:
     listed_rate_monthly: 4200          # confirmed from FF property card (Jul 6 message)
     reviewed: CONFIRM
     availability:
-      free_from: 2026-09-01            # operator-confirmed 2026-07-07: 2BR is free for the Sep 1 window
+      free_from: 2026-08-10            # per live FF listing (read 2026-07-18) — earlier than the Sep 1 assumed before
       status: OPEN                     # no signed next tenant yet
     economics:                         # operator-provided 2026-07-07
       fixed_alwayson_monthly: 3775     # mortgage+HOA+insurance+tax 3700 + internet 75 (runs during gaps)

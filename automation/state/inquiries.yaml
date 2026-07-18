@@ -63,7 +63,7 @@ inquiries:
     unit: unit_2br                    # FF matched "Exact"
     name: "Affan T."
     contact: "aff***@yahoo.com / 310-***-5575 (full in Gmail thread)"
-    desired_start: 2026-08-17         # unit free from Sep 1 — 2-week gap; asked about flexibility
+    desired_start: 2026-08-17         # WORKS — unit free from Aug 10 per live listing
     desired_end: 2026-12-31           # 136 days ≈ 4.5 mo, THEN wants month-to-month
     end_tier: YELLOW                  # Dec 31 → feeds Jan; m2m extension could carry to spring anchor
     slot_fit: "slot 2 (fall) with built-in extension intent → potential Sep→spring anchor via m2m"
@@ -72,9 +72,9 @@ inquiries:
     facility: "Fremont (works in Fremont; 2BR is in adjacent Newark — short commute)"
     lead_type: broadcast_housing_request   # a LEAD, not a listing inquiry — keep first touch light
     scorecard:
-      availability_fit: PARTIAL       # free Sep 1, not Aug 17
+      availability_fit: FULL          # free Aug 10; his Aug 17 start works
       quality: "STRONG fit — works in Fremont, 2BR in adjacent Newark (short local commute, no cross-bay friction); single/no pets; wants m2m extension = anchor potential"
       recommendation: reply_light     # friendly nudge to view the listing; don't over-qualify a lead
     status: new
-    outreach_draft: gmail_draft_v2    # light 'check out the listing' reply, in operator's Drafts (v1 discarded)
-    notes: "Lead (broadcast), so light touch. 3-way interest in 2BR fall slot: Sebastien (6mo firm), Affan (local + m2m anchor potential), Huzayfa (cooling). Listing DESCRIPTION not yet read (FF network-blocked) — draft used title features only; enrich if operator supplies copy."
+    outreach_draft: gmail_draft_v3    # friendly benefits+location reply from the REAL listing, in Drafts (v1/v2 discarded)
+    notes: "Lead (broadcast), friendly touch. Aug 17 start works (free Aug 10). Real listing read from operator screenshots; facts in units-facts.yaml. 3-way interest in 2BR fall slot: Sebastien (6mo firm), Affan (local + m2m anchor potential), Huzayfa (cooling)."
