@@ -69,12 +69,12 @@ inquiries:
     slot_fit: "slot 2 (fall) with built-in extension intent → potential Sep→spring anchor via m2m"
     occupants: 1
     pets: false
-    facility: "Fremont (works in Fremont)"
+    facility: "Fremont (works in Fremont; 2BR is in adjacent Newark — short commute)"
+    lead_type: broadcast_housing_request   # a LEAD, not a listing inquiry — keep first touch light
     scorecard:
-      availability_fit: PARTIAL       # free Sep 1, not Aug 17; qualify on date flexibility
-      quality: "STRONG — LOCAL to Fremont (no cross-bay objection, unlike Huzayfa), single/no pets, explicitly wants m2m extension = anchor potential"
-      location_note: "Traveling to Fremont + Exact match ⇒ 2BR is in/near Fremont. Local leads are the right target; South-Bay leads are the friction."
-      recommendation: reply_qualify
+      availability_fit: PARTIAL       # free Sep 1, not Aug 17
+      quality: "STRONG fit — works in Fremont, 2BR in adjacent Newark (short local commute, no cross-bay friction); single/no pets; wants m2m extension = anchor potential"
+      recommendation: reply_light     # friendly nudge to view the listing; don't over-qualify a lead
     status: new
-    outreach_draft: gmail_draft       # created 2026-07-18, in operator's Drafts
-    notes: "3-WAY competition for 2BR fall slot: Sebastien (6mo firm, best commitment), Affan (4.5mo + m2m, best location fit), Huzayfa (cooling, weakest). Only one can win."
+    outreach_draft: gmail_draft_v2    # light 'check out the listing' reply, in operator's Drafts (v1 discarded)
+    notes: "Lead (broadcast), so light touch. 3-way interest in 2BR fall slot: Sebastien (6mo firm), Affan (local + m2m anchor potential), Huzayfa (cooling). Listing DESCRIPTION not yet read (FF network-blocked) — draft used title features only; enrich if operator supplies copy."
