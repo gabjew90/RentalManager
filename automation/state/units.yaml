@@ -32,6 +32,16 @@ units:
       breakeven_75pct_cash: 4600       # FF $3,800 ~$800/mo cash-short at 75% occ
       breakeven_75pct_economic: 3500   # FF $3,800 ~$300/mo ahead economically + builds ~$10k/yr equity
       ff_cashflow_breakeven_occupancy: "~92%"
+      breakeven_by_term:               # CASH: base 3386 (fixed+elec) + overhead 883 (gap 758 + clean 125)/N
+        1mo: 4270
+        3mo: 3680
+        6mo: 3530
+        12mo: 3460
+      breakeven_by_term_economic:      # TRUE (equity-adjusted): base 2555 + econ overhead 692/N
+        1mo: 3250
+        3mo: 2790
+        6mo: 2670
+        12mo: 2610
       airbnb_1mo_min_floor: 4750       # 75% occupancy, split-fee (÷0.97)
       airbnb_1mo_min_target: 5500      # ~$175–195/night; cash-positive above ~63% occupancy
       annual_12mo:                     # 100% occupancy, direct lease (no platform fee), 1 clean/yr
@@ -57,16 +67,24 @@ units:
       fixed_alwayson_monthly: 3775     # mortgage+HOA+insurance+tax 3700 + internet 75 (runs during gaps)
       electricity_monthly: 125         # occupied only
       cleaning_per_booking: 200        # per turnover
-      principal_portion: CONFIRM       # P/I split not yet provided — sets cash vs economic break-even
-      base_occupied_monthly: 3900      # fixed always-on + electricity
-      all_in_12mo_monthly: 3917        # ~$47,000/yr, no gaps, 1 cleaning
-      overhead_per_stay: 1071          # 1-week gap carry (~871) + cleaning (200)
-      breakeven_by_term:               # base 3900 + overhead/N months
+      mortgage_principal: 1062         # EQUITY — from 2025 Form 1098 (principal applied $12,741/yr)
+      mortgage_interest: 1133          # real expense (~$13,598/yr)
+      fixed_economic_monthly: 2713     # 3775 fixed always-on − 1062 principal
+      base_occupied_monthly: 3900      # fixed always-on + electricity (cash)
+      all_in_12mo_monthly: 3917        # ~$47,000/yr, no gaps, 1 cleaning (cash)
+      overhead_per_stay: 1071          # 1-week gap carry (~871) + cleaning (200), cash
+      breakeven_by_term:               # CASH: base 3900 + overhead/N months
         1mo: 4970
         2mo: 4440
         3mo: 4260
         6mo: 4080
-        12mo: 3920
+        12mo: 3990
+      breakeven_by_term_economic:      # TRUE (equity-adjusted): base 2838 + econ overhead 826/N
+        1mo: 3660
+        2mo: 3250
+        3mo: 3110
+        6mo: 2980
+        12mo: 2910
       note: "FF listed $4,200 is priced for long stays: covers 12mo comfortably (~$280/mo margin) but only ~break-even at 3mo and thin (~$120/mo) at 6mo. Add margin above break-even per term."
     next_tenancy: null                 # two leads competing for this slot (Sebastien preferred, Huzayfa backup)
     notes: "2BR free for Sep 1 (operator-confirmed). Listed $4,200/mo. Recurring signal: South-Bay workers flag the cross-bay distance — a listing/targeting issue worth noting."

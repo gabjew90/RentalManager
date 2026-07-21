@@ -4,7 +4,7 @@ Branch: `claude/claude-md-docs-wmsn2b` · Mode: **supervised** · Scope: **MVP**
 
 ## Units
 - **1B1B = Fremont** (39139 Argonaut Way #212). Economics complete incl. mortgage P/I split (principal ~$831, interest+escrow ~$1,030). FF listed $3,800. **Listing description NOT yet read** — pending FF network access; then populate `units-facts.yaml: fremont`.
-- **2BR = Newark** (NewPark area; FF property 951920). Economics + break-even term ladder complete. FF listed $4,200. **Available Aug 10, 2026.** Real listing captured in `units-facts.yaml: newark`. **Mortgage P/I split still NEEDED** (operator gave the four fixed costs combined as $3,700) — blocks cash-vs-economic break-even.
+- **2BR = Newark** (6300 Joaquin Murieta Ave C, Newark 94560; FF property 951920). Economics + cash AND equity-adjusted break-even ladders complete. FF listed $4,200. **Available Aug 10, 2026.** Real listing captured in `units-facts.yaml: newark`. Mortgage split from 2025 Form 1098: principal ~$1,062/mo (equity), interest ~$1,133/mo.
 
 ## Active leads — 3-way race for the 2BR fall slot (only one wins)
 All drafts sit in the operator's **Gmail Drafts** (not in the repo).
@@ -17,7 +17,7 @@ Recommendation: pursue Sebastien to a decision; Affan strong backup; treat Huzay
 ## Pending operator actions
 - Send/act on the drafts above (Sebastien via FF paste; Affan + Huzayfa via Gmail send).
 - Affan's draft: paste the FF listing URL where marked; confirm pet policy.
-- Provide the 2BR mortgage principal/interest split.
+
 - Decide the 2BR winner; say whether to keep pursuing Huzayfa.
 
 ## Owed / not yet built
