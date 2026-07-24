@@ -78,3 +78,53 @@ inquiries:
     status: new
     outreach_draft: gmail_draft_v3    # friendly benefits+location reply from the REAL listing, in Drafts (v1/v2 discarded)
     notes: "Lead (broadcast), friendly touch. Aug 17 start works (free Aug 10). Real listing read from operator screenshots; facts in units-facts.yaml. 3-way interest in 2BR fall slot: Sebastien (6mo firm), Affan (local + m2m anchor potential), Huzayfa (cooling)."
+
+  - id: 2026-07-19-ff-olivia-q
+    received: 2026-07-19T15:45:17Z
+    gmail_thread: 19f7b0d9e1b93b34
+    channel: furnished_finder
+    type: housing_request
+    unit: unit_2br                    # FF matched "Exact"
+    name: "Olivia Q."
+    contact: "oli***@outlook.com / 650-***-8546 (UK-based, prefers EMAIL)"
+    desired_start: 2026-08-11         # works — free Aug 10
+    desired_end: 2026-11-11           # 92 days = 3 months
+    end_tier: RED                     # Nov 11 ∈ Oct 11–Dec 14 dead zone
+    occupants: 1
+    pets: false
+    facility: "VC internship, near Menlo Park (Palo Alto area)"
+    lead_type: broadcast_housing_request
+    scorecard:
+      availability_fit: FULL
+      quality: "professional (LBS grad, VC intern), single, no pets, 3mo. But RED end date + South-Bay worksite (cross-bay from Newark)"
+      location_note: "Palo Alto/Menlo Park worksite = the cross-bay 'far' friction again"
+      recommendation: reply_light     # honest re: commute; sell value; point to listing
+    status: new
+    outreach_draft: gmail_draft       # created 2026-07-24, in operator's Drafts
+    notes: "3mo ending Nov 11 (Red) — weaker than the anchor candidates. Backup for the 2BR."
+
+  - id: 2026-07-24-ff-thulani-haven
+    received: 2026-07-24T13:19:09Z
+    gmail_thread: 19f9447a0a029a99
+    channel: furnished_finder
+    type: housing_request
+    unit: unit_2br                    # FF matched "Exact" (they asked for a 1BR — see note)
+    name: "Thulani M. — Haven Housing Solutions (corporate agency)"
+    contact: "NONE on file — reply via FF platform (Reply Now)"
+    desired_start: 2026-08-16
+    desired_end: 2026-09-16           # 31 days = 1 month
+    end_tier: YELLOW                  # Sep 16 ∈ Aug 15–Oct 10
+    occupants: 2
+    pets: false
+    facility: "corporate placement (Palo Alto)"
+    lead_type: broadcast_housing_request
+    scorecard:
+      availability_fit: FULL
+      quality: "3rd-party corporate housing agency, 1-month, 2 adults, 1 car. Asked for a 1BR (FF matched the 2BR)."
+      pricing_note: "1-month stay → price at short-stay end (1-mo floor ~$5,000), NOT the $4,200 anchor rate."
+      vet_note: "Corporate agencies can be repeat business but often seek below-market or mark up to their client — vet before committing."
+      onebr_note: "They wanted a 1BR — if the 1B1B (Fremont) is free Aug 16–Sep 16 it may fit better AND keep the 2BR open for a longer anchor. 1B1B availability unknown."
+      recommendation: reply_ff_paste
+    status: new
+    outreach_draft: ff_paste          # self-clipboard draft in Gmail; PASTE into FF (no contact)
+    notes: "1-month corporate bridge. Weakest for the anchor slot but could fill Aug if the anchor starts Sep+. Get their contact + confirm placement before holding dates."

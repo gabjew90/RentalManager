@@ -1,7 +1,7 @@
 # Agent bookkeeping — maintained by the ops-manager agent, do not edit by hand
 # except `autonomy`, which the operator flips from `supervised` to `standing`
 # after the first satisfactory week.
-last_run: 2026-07-18T14:00:00Z
+last_run: 2026-07-24T14:00:00Z
 autonomy: supervised      # supervised = everything queues for approval | standing = Auto tier live
 scope: mvp                # mvp = intake + evaluate + draft outreach only (see ff-lead-followup.md)
 processed_message_ids:
@@ -10,3 +10,5 @@ processed_message_ids:
   - 19f3d8eb52ec9b30      # 2026-07-07 new lead (Sebastien P.) — evaluated, FF paste drafted
   - 19f7573161e52c27      # 2026-07-18 new lead (Affan T.) — evaluated, Gmail draft created
 backlog_note: "~200 older FF threads (Apr–May burst on the 1B1B) intentionally not backfilled in MVP; available on request for demand-calendar calibration."
+  - 19f7b0d9e1b93b34      # 2026-07-19 new lead (Olivia Q.) — evaluated, Gmail draft
+  - 19f9447a0a029a99      # 2026-07-24 new lead (Thulani/Haven, corporate) — evaluated, FF paste
