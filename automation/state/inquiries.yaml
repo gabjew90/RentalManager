@@ -120,11 +120,13 @@ inquiries:
     lead_type: broadcast_housing_request
     scorecard:
       availability_fit: FULL
-      quality: "3rd-party corporate housing agency, 1-month, 2 adults, 1 car. Asked for a 1BR (FF matched the 2BR)."
-      pricing_note: "1-month stay → price at short-stay end (1-mo floor ~$5,000), NOT the $4,200 anchor rate."
-      vet_note: "Corporate agencies can be repeat business but often seek below-market or mark up to their client — vet before committing."
-      onebr_note: "They wanted a 1BR — if the 1B1B (Fremont) is free Aug 16–Sep 16 it may fit better AND keep the 2BR open for a longer anchor. 1B1B availability unknown."
-      recommendation: reply_ff_paste
-    status: new
-    outreach_draft: ff_paste          # self-clipboard draft in Gmail; PASTE into FF (no contact)
-    notes: "1-month corporate bridge. Weakest for the anchor slot but could fill Aug if the anchor starts Sep+. Get their contact + confirm placement before holding dates."
+      quality: "LIKELY SCAM / JUNK LEAD — verified against the real email (thread 19f9447a0a029a99)"
+      scam_flags:
+        - "3rd-party 'corporate placement and housing company' booking for an unnamed client — common FF scam/spam pattern"
+        - "no email AND no phone provided (both blank) — contact-harvesting pattern"
+        - "generic templated message; nothing specific to this listing; no named tenant, no employer (Facility/Staffing = N/A)"
+        - "watch for: overpayment+refund scam, off-platform payment (Zelle/wire/gift card), sight-unseen booking with urgency, undisclosed re-letting"
+      recommendation: deprioritize     # strong real leads exist for this slot; do not need this one
+    status: flagged_scam_risk
+    outreach_draft: ff_paste_guarded  # GUARDED reply in Gmail (asks for verifiable tenant details); warm draft discarded
+    notes: "Do NOT reveal personal/banking info, hold dates, or accept overpayment/off-platform payment. If replied at all, demand the real tenant name + employer + direct contact first; most such agencies go silent. Earlier warm draft was a mistake — replaced with guarded version."
