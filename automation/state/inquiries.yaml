@@ -151,7 +151,7 @@ inquiries:
     scorecard:
       availability_fit: FULL
       quality: "BEST/most-advanced 2BR lead — booking inquiry + already in screening; 2 Tesla interns (core demand cohort); serious specific question"
-      blocker: "public-transit commute Newark→Tesla Fremont. CANNOT fabricate — operator must pull the real number (Google Maps transit). Area is car-oriented; transit may be long → answer honestly, don't oversell"
+      blocker: "public-transit commute Newark→Tesla Fremont. RESEARCHED 2026-07-29: ~60-90 min each way (AC Transit 232 to Fremont BART ~54min + connect toward Warm Springs/factory; nearest station Warm Springs is a 26-min walk to factory). Car ~15-20 min; bike ~6mi/~35min; Tesla runs BART employee shuttles (intern access varies). Transit is a real drawback for a car-less intern — answered honestly, reframed to car/bike/carpool/shuttle."
       pricing_note: "listing now shows $4,000/mo (was $4,200). ~4mo 2BR cash break-even ≈ $4,180 → $4,000 is ~$180/mo below cash BE (still economic-positive/equity-building, but thin)"
-      recommendation: answer_transit_honestly_then_close
+      recommendation: sent_honest_transit_reply   # gmail draft (paste-to-FF), Angle 2 honest+reframe
     notes: "Highest-priority 2BR lead — furthest along. Collides with Sebastien/Affan for the fall slot. Respond to the transit question promptly with the REAL number; if transit is weak, reframe (carport/bike/carpool), don't inflate."
