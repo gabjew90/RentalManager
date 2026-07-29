@@ -130,3 +130,28 @@ inquiries:
     status: flagged_scam_risk
     outreach_draft: ff_paste_guarded  # GUARDED reply in Gmail (asks for verifiable tenant details); warm draft discarded
     notes: "Do NOT reveal personal/banking info, hold dates, or accept overpayment/off-platform payment. If replied at all, demand the real tenant name + employer + direct contact first; most such agencies go silent. Earlier warm draft was a mistake — replaced with guarded version."
+
+  - id: 2026-07-27-ff-keegan-t
+    received: 2026-07-27T14:41:42Z
+    channel: furnished_finder
+    type: booking_inquiry             # higher intent than housing_request
+    gmail_threads: ["19fa4064dc00e83c (inquiry)", "19fa6b9986cb41a2 (msg Jul28)", "19fab5146d95157e (msg Jul29)"]
+    ff_message_channel: 52feb30d-4c9f-4df1-b848-66653b406a06
+    unit: unit_2br
+    name: "Keegan Tripp"
+    contact: "via FF messaging (reply-to-email routes); no direct email in inquiry"
+    desired_start: 2026-08-27
+    desired_end: 2026-12-19           # 114 days ≈ 3.75 mo
+    end_tier: YELLOW                  # Dec 19 ∈ Dec 15–Jan 20
+    occupants: 2                      # him + another student
+    pets: false
+    facility: "Tesla Fremont internship (2 students)"
+    status: in_screening             # operator sent a screening request Jul 28
+    open_question: "Jul 29: wants public-transit time from unit (Newark) to Tesla Fremont before committing — NO car"
+    scorecard:
+      availability_fit: FULL
+      quality: "BEST/most-advanced 2BR lead — booking inquiry + already in screening; 2 Tesla interns (core demand cohort); serious specific question"
+      blocker: "public-transit commute Newark→Tesla Fremont. CANNOT fabricate — operator must pull the real number (Google Maps transit). Area is car-oriented; transit may be long → answer honestly, don't oversell"
+      pricing_note: "listing now shows $4,000/mo (was $4,200). ~4mo 2BR cash break-even ≈ $4,180 → $4,000 is ~$180/mo below cash BE (still economic-positive/equity-building, but thin)"
+      recommendation: answer_transit_honestly_then_close
+    notes: "Highest-priority 2BR lead — furthest along. Collides with Sebastien/Affan for the fall slot. Respond to the transit question promptly with the REAL number; if transit is weak, reframe (carport/bike/carpool), don't inflate."

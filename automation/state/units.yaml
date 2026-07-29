@@ -58,7 +58,7 @@ units:
     ff_property_id: 951920             # from FF lead links
     city: "Newark, CA"                 # confirmed by operator. Adjacent to Fremont (minutes away);
                                        # East-Bay/Fremont workers fit well, South-Bay leads find it "far".
-    listed_rate_monthly: 4200          # confirmed from FF property card (Jul 6 message)
+    listed_rate_monthly: 4000          # lowered from 4200 — per Keegan booking inquiry (Jul 27); confirm with operator
     reviewed: CONFIRM
     availability:
       free_from: 2026-08-10            # per live FF listing (read 2026-07-18) — earlier than the Sep 1 assumed before
