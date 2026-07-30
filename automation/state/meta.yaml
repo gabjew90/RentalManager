@@ -1,7 +1,7 @@
 # Agent bookkeeping — maintained by the ops-manager agent, do not edit by hand
 # except `autonomy`, which the operator flips from `supervised` to `standing`
 # after the first satisfactory week.
-last_run: 2026-07-24T14:00:00Z
+last_run: 2026-07-30T17:00:00Z
 autonomy: supervised      # supervised = everything queues for approval | standing = Auto tier live
 scope: mvp                # mvp = intake + evaluate + draft outreach only (see ff-lead-followup.md)
 processed_message_ids:
@@ -11,4 +11,11 @@ processed_message_ids:
   - 19f7573161e52c27      # 2026-07-18 new lead (Affan T.) — evaluated, Gmail draft created
   - 19f7b0d9e1b93b34      # 2026-07-19 new lead (Olivia Q.) — evaluated, Gmail draft created
   - 19f9447a0a029a99      # 2026-07-24 new lead (Thulani/Haven, corporate) — evaluated, FF paste
+  - 19fb3e038a3ca4a8      # 2026-07-30 Keegan PASSED (transit dealbreaker) — lead dead
+  - 19fb18a50f0fc965      # 2026-07-30 new lead (Michael B., ~13.5mo anchor) — Gmail draft created
+  - 19faa477a6b76d33      # 2026-07-28 new lead (Ivan V., travel nurse) — backup, no draft yet
+  - 19fa78099b340c0a      # 2026-07-28 new lead (Parth K., student x3) — transit-risk, no draft yet
+  - 19fa4064dc00e83c      # 2026-07-27 Keegan booking inquiry (processed)
+  - 19fa6b9986cb41a2      # 2026-07-28 Keegan msg (processed)
+  - 19fab5146d95157e      # 2026-07-29 Keegan transit question (processed)
 backlog_note: "~200 older FF threads (Apr–May burst on the 1B1B) intentionally not backfilled in MVP; available on request for demand-calendar calibration."

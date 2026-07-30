@@ -146,8 +146,9 @@ inquiries:
     occupants: 2                      # him + another student
     pets: false
     facility: "Tesla Fremont internship (2 students)"
-    status: in_screening             # operator sent a screening request Jul 28
-    open_question: "Jul 29: wants public-transit time from unit (Newark) to Tesla Fremont before committing — NO car"
+    status: DEAD                     # Jul 30: "I think I will pass on the apartment, thank you" — transit was the dealbreaker (as predicted)
+    dead_reason: transit_commute
+    open_question: "RESOLVED — passed. Confirms the 2BR loses car-less South-Bay/transit-dependent leads."
     scorecard:
       availability_fit: FULL
       quality: "BEST/most-advanced 2BR lead — booking inquiry + already in screening; 2 Tesla interns (core demand cohort); serious specific question"
@@ -155,3 +156,77 @@ inquiries:
       pricing_note: "listing now shows $4,000/mo (was $4,200). ~4mo 2BR cash break-even ≈ $4,180 → $4,000 is ~$180/mo below cash BE (still economic-positive/equity-building, but thin)"
       recommendation: sent_honest_transit_reply   # gmail draft (paste-to-FF), Angle 2 honest+reframe
     notes: "Highest-priority 2BR lead — furthest along. Collides with Sebastien/Affan for the fall slot. Respond to the transit question promptly with the REAL number; if transit is weak, reframe (carport/bike/carpool), don't inflate."
+
+  - id: 2026-07-30-ff-michael-b
+    received: 2026-07-30T05:40:59Z
+    gmail_thread: 19fb18a50f0fc965
+    channel: furnished_finder
+    type: housing_request
+    unit: unit_2br                    # FF matched "Exact"
+    name: "Michael Breden"
+    role: "Self-employed (Catalyst Coffee Co.)"
+    contact: "info@catalystcoffeeco.com / 510-***-9909 (full in Gmail thread)"
+    desired_start: 2026-08-10         # works — free Aug 10
+    desired_end: 2027-09-30           # 416 days ≈ 13.5 MONTHS — long anchor
+    end_tier: n/a                     # 13-mo stay; end date far out, not a turnover concern
+    occupants: 2
+    pets: false
+    facility: "Reopening coffee shop in Livermore + mobile catering (Pleasanton/Livermore)"
+    lead_type: broadcast_housing_request
+    scorecard:
+      availability_fit: FULL
+      quality: "⭐ BEST NEW ANCHOR — ~13.5mo stay = near-zero turnover/vacancy. East-Bay-bound (Livermore ~30min drive, business owner w/ car) so NOT the South-Bay transit problem. Email on file."
+      screening_note: "Self-employed income → verify via standard application/screening (bank statements/business docs)."
+      pricing_note: "Listed $4,000 ≈ 12mo+ cash break-even ($3,990); a 13-mo anchor at $4,000 is cash-thin but full-equity + zero turnover. $4,200 would add margin."
+      recommendation: reply_pursue_hard
+    status: new
+    outreach_draft: gmail_draft       # created 2026-07-30, in operator's Drafts
+    notes: "Top priority alongside Sebastien/Affan. Long anchor + East Bay fit. Pursue."
+
+  - id: 2026-07-28-ff-ivan-v
+    received: 2026-07-28T19:50:38Z
+    gmail_thread: 19faa477a6b76d33
+    channel: furnished_finder
+    type: housing_request
+    unit: unit_2br
+    name: "Ivan Veklich"
+    role: "Travel ICU Nurse (Fusion Medical Staffing)"
+    contact: "NONE on file — reply via FF platform (Reply Now)"
+    desired_start: 2026-08-14
+    desired_end: 2026-11-14           # 92 days = 3 months
+    end_tier: RED                     # Nov 14 ∈ Oct 11–Dec 14 dead zone
+    occupants: 1
+    pets: false
+    facility: "Stanford Hospital 3-mo contract (Palo Alto)"
+    lead_type: broadcast_housing_request
+    scorecard:
+      availability_fit: FULL
+      quality: "reliable travel-nurse profile, but South-Bay (Stanford/Palo Alto) = cross-bay friction; RED end; 3mo. No contact → FF paste."
+      recommendation: reply_light_backup
+    status: new
+    outreach_draft: none_yet          # backup; South-Bay transit-risk
+    notes: "Backup for 2BR. Honest re: Newark→Palo Alto cross-bay commute if pursued."
+
+  - id: 2026-07-28-ff-parth-k
+    received: 2026-07-28T06:54:10Z
+    gmail_thread: 19fa78099b340c0a
+    channel: furnished_finder
+    type: housing_request
+    unit: unit_2br
+    name: "Parth K"
+    role: "Student (UCSB)"
+    contact: "kul***@gmail.com / 805-***-8044 (full in Gmail thread)"
+    desired_start: 2026-08-15
+    desired_end: 2026-11-30           # 107 days ≈ 3.5 months
+    end_tier: RED                     # Nov 30 ∈ Oct 11–Dec 14 dead zone
+    occupants: 3                      # him + 2 friends — tight for a 2-bed
+    pets: false
+    facility: "San Jose (student)"
+    lead_type: broadcast_housing_request
+    scorecard:
+      availability_fit: FULL
+      quality: "3 students for a 2-bed (tight). Explicitly wants 'decent public transportation' to San Jose — SAME transit wall that killed Keegan. RED end."
+      recommendation: reply_honest_transit_low_priority
+    status: new
+    outreach_draft: none_yet
+    notes: "Likely to hit the transit dealbreaker (San Jose + wants transit; 2BR is Newark). If pursued, be honest like Keegan. Low priority."
