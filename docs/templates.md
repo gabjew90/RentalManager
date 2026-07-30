@@ -38,6 +38,18 @@ Use when their end date is Yellow/Red (design §4). Prefer lengthening the stay.
 >
 > Since we're confirmed, I'll begin advertising the unit for dates after yours. If your plans change and you'd like to extend after all, tell me right away — once a new booking is signed the dates are gone.
 
+## L1 · Lead first-touch (LIGHT — for broadcast housing requests)
+
+Use for **housing-request leads** — the traveler cast a wide net across many landlords and likely hasn't seen this listing. Keep it light: friendly hello → check out the listing → one honest line about their commute if relevant. **No qualification interrogation, no screening ask, no pricing/date negotiation** — that comes later, only if they engage. (For a **booking inquiry** — targeted at this property, high intent — use I1/I2 and qualify.)
+
+> Hi [NAME] — thanks for reaching out[, and (personal touch: welcome to the area / congrats on the new role)]!
+>
+> *(Commute line, only if relevant — honest, one sentence. Examples:)*
+> — East Bay worksite: "Since you'll be over in [Fremont/Livermore], we're close by — about [X] away."
+> — South Bay worksite: "One honest heads-up since you'll be around [Palo Alto/San Jose]: we're on the East Bay side in Newark, so it's a cross-bay commute — easy with a car, a bit longer by transit."
+>
+> Have a look at the full listing and photos here: [LISTING LINK]. If it looks like a fit, just reply and we can go from there — happy to do a quick video tour anytime!
+
 ## I1 · Furnished Finder inquiry reply (same day)
 
 > Hi [NAME], thanks for reaching out about [UNIT]! It's available from **[AVAILABLE DATE]**. Quick questions so I can confirm fit:

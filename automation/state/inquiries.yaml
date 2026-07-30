@@ -52,8 +52,8 @@ inquiries:
       note: "Mountain View worksite = same cross-bay geography that Huzayfa objected to; hasn't raised it. Confirm he knows the location."
       recommendation: reply_with_date_counter
     status: new
-    outreach_draft: ff_paste          # in Gmail Drafts as a self-note clipboard; PASTE into FF (no email on file)
-    notes: "Collides with Huzayfa on 2BR + Sep 1. Preferred: longer, engineerable to Green anchor. ~8mo × listed 4200 if extended."
+    outreach_draft: ff_paste_light    # L1 light FF-paste (fresh; DELETE earlier heavier Sebastien paste). Save the Apr date-counter for AFTER he engages.
+    notes: "Anchor candidate. Light L1 first-touch (dropped the date-counter from first message). Engineer end→Apr only once he replies."
 
   - id: 2026-07-18-ff-affan-t
     received: 2026-07-18T13:38:24Z
@@ -100,8 +100,8 @@ inquiries:
       location_note: "Palo Alto/Menlo Park worksite = the cross-bay 'far' friction again"
       recommendation: reply_light     # honest re: commute; sell value; point to listing
     status: new
-    outreach_draft: gmail_draft       # created 2026-07-24, in operator's Drafts
-    notes: "3mo ending Nov 11 (Red) — weaker than the anchor candidates. Backup for the 2BR."
+    outreach_draft: gmail_draft_light # L1 light (fresh; DELETE earlier heavier Olivia draft), in Drafts
+    notes: "3mo ending Nov 11 (Red) — backup. Light L1 first-touch."
 
   - id: 2026-07-24-ff-thulani-haven
     received: 2026-07-24T13:19:09Z
@@ -180,8 +180,8 @@ inquiries:
       pricing_note: "Listed $4,000 ≈ 12mo+ cash break-even ($3,990); a 13-mo anchor at $4,000 is cash-thin but full-equity + zero turnover. $4,200 would add margin."
       recommendation: reply_pursue_hard
     status: new
-    outreach_draft: gmail_draft       # created 2026-07-30, in operator's Drafts
-    notes: "Top priority alongside Sebastien/Affan. Long anchor + East Bay fit. Pursue."
+    outreach_draft: gmail_draft_light # L1 light lead-greeting (updated in place), in Drafts
+    notes: "Top priority alongside Sebastien/Affan. Long anchor + East Bay fit. Light L1 first-touch."
 
   - id: 2026-07-28-ff-ivan-v
     received: 2026-07-28T19:50:38Z
@@ -204,8 +204,8 @@ inquiries:
       quality: "reliable travel-nurse profile, but South-Bay (Stanford/Palo Alto) = cross-bay friction; RED end; 3mo. No contact → FF paste."
       recommendation: reply_light_backup
     status: new
-    outreach_draft: none_yet          # backup; South-Bay transit-risk
-    notes: "Backup for 2BR. Honest re: Newark→Palo Alto cross-bay commute if pursued."
+    outreach_draft: ff_paste_light    # L1 light FF-paste (honest commute line), in Drafts
+    notes: "Backup for 2BR. Light L1 first-touch; honest re: cross-bay commute."
 
   - id: 2026-07-28-ff-parth-k
     received: 2026-07-28T06:54:10Z
@@ -228,8 +228,8 @@ inquiries:
       quality: "3 students for a 2-bed (tight). Explicitly wants 'decent public transportation' to San Jose — SAME transit wall that killed Keegan. RED end."
       recommendation: reply_honest_transit_low_priority
     status: new
-    outreach_draft: none_yet
-    notes: "Likely to hit the transit dealbreaker (San Jose + wants transit; 2BR is Newark). If pursued, be honest like Keegan. Low priority."
+    outreach_draft: gmail_draft_light # L1 light (honest: transit to San Jose is long), in Drafts
+    notes: "Light L1 first-touch, honest that transit to San Jose is long. Low priority."
 
 # CONVERSION REALITY CHECK (2026-07-30): zero leads have converted/signed.
 # Real outcomes to date: Keegan = PASSED (transit); Huzayfa = cooled (soft

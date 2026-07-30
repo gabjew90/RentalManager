@@ -49,6 +49,8 @@ Parse confidence < high on dates or contact → digest item with raw email, no a
 
 Evaluate against `units.yaml` availability and the demand tiers:
 
+**Lead vs inquiry — pick the register first.** A **housing-request lead** is the traveler casting a wide net (broadcast to many landlords; may not have seen this listing) → first touch is **L1 (light): friendly hello + "check out the listing" + one honest commute line if relevant.** No qualification/screening/pricing in the first message. A **booking inquiry / direct message** is targeted at this property (high intent) → qualify with I1/I2. The cases below apply the *matching* register (L1 for leads, I1 for inquiries).
+
 | Case | Action | Template |
 |---|---|---|
 | Dates fit, unit available, end date Green | Qualification reply, reference the listed monthly rate | I1 |
