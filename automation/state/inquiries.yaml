@@ -146,9 +146,9 @@ inquiries:
     occupants: 2                      # him + another student
     pets: false
     facility: "Tesla Fremont internship (2 students)"
-    status: DEAD                     # Jul 30: "I think I will pass on the apartment, thank you" — transit was the dealbreaker (as predicted)
+    status: DEAD                     # Jul 30: "I think I will pass on the apartment, thank you"
     dead_reason: transit_commute
-    open_question: "RESOLVED — passed. Confirms the 2BR loses car-less South-Bay/transit-dependent leads."
+    open_question: "RESOLVED — passed over the transit commute. This is the ONLY confirmed conversion outcome so far (n=1). Do not overstate into a proven pattern."
     scorecard:
       availability_fit: FULL
       quality: "BEST/most-advanced 2BR lead — booking inquiry + already in screening; 2 Tesla interns (core demand cohort); serious specific question"
@@ -230,3 +230,11 @@ inquiries:
     status: new
     outreach_draft: none_yet
     notes: "Likely to hit the transit dealbreaker (San Jose + wants transit; 2BR is Newark). If pursued, be honest like Keegan. Low priority."
+
+# CONVERSION REALITY CHECK (2026-07-30): zero leads have converted/signed.
+# Real outcomes to date: Keegan = PASSED (transit); Huzayfa = cooled (soft
+# negative). All other leads are unresolved — several drafts remain UNSENT in
+# the operator's Drafts, and no lead has replied back or signed. The
+# "East-Bay-fits / South-Bay-struggles" idea is a HYPOTHESIS from n=1 pass +
+# 1 cooling, NOT a demonstrated conversion pattern. Do not claim any lead
+# "converts" until one actually signs.
