@@ -60,8 +60,14 @@ units:
                                        # East-Bay/Fremont workers fit well, South-Bay leads find it "far".
     listed_rate_monthly: 4000          # lowered from 4200 — per Keegan booking inquiry (Jul 27); confirm with operator
     reviewed: CONFIRM
+    airbnb_listing_id: "730442141248873503"
+    calendar:
+      source: airbnb_ical              # FF imports this same Airbnb calendar, so it's the single source of truth
+      url_env: AIRBNB_ICAL_2BR         # full export URL (with ?t= token) lives in this env var — NEVER commit
+                                       # it: the repo is public and the token grants read access to the calendar.
+      fetch_requires: "www.airbnb.com allowlisted in the environment's network policy"
     availability:
-      free_from: 2026-08-10            # per live FF listing (read 2026-07-18) — earlier than the Sep 1 assumed before
+      free_from: 2026-11-03            # operator-confirmed 2026-10-06 (used on Key Hosting Co. intake form)
       status: OPEN                     # no signed next tenant yet
     economics:                         # operator-provided 2026-07-07
       fixed_alwayson_monthly: 3775     # mortgage+HOA+insurance+tax 3700 + internet 75 (runs during gaps)
